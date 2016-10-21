@@ -3,7 +3,7 @@
 Professional portfolio development
 This tool should evolve. I don't know yet how I'll do it, but I found interesting to share it.
 
-The very first one I made in 2013 is available (https://www.amramelbaz.fr "right here") and need to be refreshed/replaced.
+The very first one I made in 2013 is available at https://www.amramelbaz.fr and need to be refreshed/replaced.
 
 If you have any ideas or suggestions, don't hesitate, I'm pretty attentive (and I need some :p )
 

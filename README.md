@@ -1,13 +1,33 @@
 # Portfolio
 
-Professional portfolio development
+### Professional portfolio development
+
 This tool should evolve. I don't know yet how I'll do it, but I found interesting to share it.
 
 The very first one I made in 2013 is available at https://www.amramelbaz.fr and need to be refreshed/replaced.
 
 If you have any ideas or suggestions, don't hesitate, I'm pretty attentive (and I need some :p )
 
-At the moment (21/10/2016), I don't know yet how I'll develop it. Probably Node.js/ejs templating.
+I'll develop it using Node.js/ejs templating.
+
+
+## Current todo/roadmap:
+
+- Basic portfolio features
+
+- Link it with an expresserver generator.py that I want to develop (maybe)
+
+- Define an exact sitemap
+
+- Fill it with my personal informations
+
+- CSS
+
+- Include a blogging system
+
+All this features have to be generic.
+I'd like to create fill some pages like the CV one thanks to json parser system, a bit like my old portfolio, linked higher in this page, but cleaner.
+
 
 ## Licence
 

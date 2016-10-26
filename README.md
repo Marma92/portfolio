@@ -26,7 +26,7 @@ I'll develop it using Node.js/ejs templating.
 - Include a blogging system
 
 All this features have to be generic.
-I'd like to create fill some pages like the CV one thanks to json parser system, a bit like my old portfolio, linked higher in this page, but cleaner.
+I'd like to fill some pages like the CV one thanks to json parser system, a bit like my old portfolio, linked higher in this page, but cleaner.
 
 
 ## Licence

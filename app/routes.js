@@ -9,4 +9,8 @@ module.exports = function(app){
 	require("./parcours.js")(app);
 	require("./projetspro")(app);
 	require("./projetsperso")(app);
+
+	app.get('*', function(req, res){
+  		res.render('404.ejs');
+	});
 }

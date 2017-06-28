@@ -10,14 +10,31 @@
 	<% include ../partials/menu %>
   <div class="container">
       <div class="page-header text-center">
-        <h1> DungeonRPG </h1>
+        <h1><a href="https://github.com/Marma92/DungeonRPG" class="project_title"> DungeonRPG </a></h1>
 			</div>
           <div class="row">
 						<div class="col-sm-12 col-sm-offset-0" >
 							<div class="well">
-
             	<p id="content">
-								
+								<h3>Le projet:</h3>
+
+								Développé dans le cadre d’un projet scolaire, en troisième année de Bachelor en Architecture Logicielle, DungeonRPG est un jeu entre RPG (Role Playing Game, ou jeu de rôle) et exploration de donjon.<br/>
+								Sa particularité est sa simplicité d’édition de niveaux, permettant à n’importe qui d’en créer un pour le jouer.<br/>
+
+								<h3>Contexte :</h3>
+								DungeonRPG a été développé pour un projet donné au terme d’un module de cours sur Python.<br/>
+								Le sujet était libre mais avait pour contraintes d’être un projet en Python (3 ou 2) faisant usage de bibliothèques, disposant d’une interface graphique, et présentant une complexité algorithmique à présenter en détail.<br/>
+
+								<h3>Développement :</h3>
+								Pour ce projet, le choix a été fait de n’utiliser aucune bibliothéque offrant un moteur de jeu déjà fait. Le but étant justement d’en produire un, sans préconception ni aide.<br/>
+								<a href="/technique#algo">L’algorithme</a> présenté a donc été le moteur d’exploration, autrement dit, le moyen logiciel par lequel le personnage controllé par le joueur se déplace au sein du labyrinthe, et comment interagit-il au sein d’un niveau générisé.<br/>
+								Pour cela, il a d’abord fallu penser ce projet comme une solution logicielle, puis en imaginer les briques à programmer, en faisant un travail <a href="/technique#archi">d’architecture logicielle</a>.<br/>
+								Ensuite, développer ces briques de la manière la plus générique possible en <a href="/technique#script">Python 3</a>, en faisant d’abord des <a href="/technique#tests">tests</a> sur le moteur, en console, de sorte à s’assurer de sa fiabilité et de le perfectionner.<br/>
+								Enfin, y ajouter une interface graphique, à l’aide de la <a href="technique#libs">librairie</a> <a href="http://tkinter.fdex.eu/">tkinter</a>, et y représenter les éléments (murs, coffres, personnage…) par des sprites.<br/>
+
+								<h3>Annexe : </h3>
+								Lien vers le dépot <a href="https://github.com/Marma92/DungeonRPG">Git</a> du projet.
+
             	</p>
 							</div>
 						</div>

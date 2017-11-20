@@ -1,0 +1,13 @@
+{
+  "pageTitle" : "Amram ELBAZ",
+  "articles" :{
+    "article" : {
+        "idArticle" : "1",
+        "contentArticle" : {
+            "titleArticle" : " Contact ",
+            "textArticle" : " Pour me contacter : blablabla"
+        }
+    }
+  },
+  "otherStuff" : "oui"
+}

@@ -1,0 +1,19 @@
+{
+  "pageTitle" : "Amram ELBAZ",
+  "articles" :{
+    "article" : {
+        "idArticle" : "1",
+        "contentArticle" : {
+            "titleArticle" : " Contact ",
+            "textArticle" : " Pour me contacter : blablabla"
+        }
+    }
+  },
+  "specificData" :{
+    "specificDataName" : "valeur de la data",
+    "specificDataNameExample" : "à venir dans les prochaines lignes",
+    "email" : "me@contact.com",
+    "linkedinAccount" : "https://linkedin.com/user/me"
+  },
+  "otherStuff" : "oui"
+}

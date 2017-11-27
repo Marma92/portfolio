@@ -10,6 +10,7 @@ module.exports = function(app){
 	require("./projetspro")(app);
 	require("./projetsperso")(app);
 	require("./dungeonrpg")(app);
+	require("./template")(app);
 
 	app.get('*', function(req, res){
   		res.render('404.ejs');

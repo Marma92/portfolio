@@ -1,29 +1,32 @@
-<!-- views/template.ejs -->
+<!-- views/me.ejs -->
 <!doctype html>
 <html>
 <head>
-	<title>Amram's Portfolio</title>
+	<title><%= obj.pageTitle %></title>
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 <body>
 	<% include ./partials/menu %>
   <div class="container">
-      <div class="page-header text-center">
-        <h1> MOI !</h1>
+      <div class="page-header text-center" id="meHeader">
+        <h1> <%= obj.sections.section.contentSection.titleSection %></h1>
 			</div>
-					<div class="row">
-						<div class="col-sm-12 col-sm-offset-0" >
-							<div class="well">
-
-							<p id="content">
-								Ici une brève et swaggy présentation de moi avec des liens dans l'esprit de la navigation circulaire
-							</p>
+				<div class="row">
+						<div class="col-12 col-md-10">
+						<p id="content">
+						<br/>
+						<%- obj.sections.section.contentSection.textSection %>
+						</p>
+						</div>
+								<div class="col-6 col-md-2">
+									<center><img src="<%= obj.profilePic.link  %>" id="sideProfilePic"/></center>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 			</div>
-
   <% include ./partials/footer %>
 </body>
 </html>

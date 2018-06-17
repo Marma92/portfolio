@@ -3,3 +3,14 @@
   width: 16em;
   height: 16em;
 }
+
+#sideProfilePic{
+  border-radius: 2000px;
+  width: 10em;
+  height: 10em;
+}
+
+#meHeader{
+  border-bottom: none;
+
+}

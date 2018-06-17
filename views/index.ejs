@@ -12,19 +12,14 @@
 	<div class="container">
 
 			<div class="page-header text-center">
-				<h1><%= obj.sections.section.contentSection.titleSection %><img src="<%= obj.profilePic.link  %>" id="profilePic"/></h1>
-				<div> </div>
+				<img src="<%= obj.profilePic.link  %>" id="profilePic"/>
+				<h1><%= obj.sections.section.contentSection.titleSection %></h1>
 			</div>
 					<div class="row">
-						<div class="col-sm-12 col-sm-offset-0" >
-							<div class="well">
-
 							<p id="content">
-								<%- obj.sections.section.contentSection.textSection %>
+								<center><%- obj.sections.section.contentSection.textSection %></center>
 							</p>
 							</div>
-						</div>
-					</div>
 	</div>
 		</div>
 	</div>

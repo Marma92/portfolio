@@ -2,23 +2,25 @@
 <!doctype html>
 <html>
 <head>
-	<title>Amram's Portfolio</title>
+	<title><%= obj.pageTitle %></title>
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/public/css/portfolio.css">
 </head>
 <body>
 	<% include ./partials/menu %>
 	<div class="container">
 
 			<div class="page-header text-center">
-				<h1> Lorem Ipsum ! </h1>
+				<h1><%= obj.sections.section.contentSection.titleSection %><img src="<%= obj.profilePic.link  %>" id="profilePic"/></h1>
+				<div> </div>
 			</div>
 					<div class="row">
 						<div class="col-sm-12 col-sm-offset-0" >
 							<div class="well">
 
 							<p id="content">
-								Ici c'est l'accueil.
+								<%- obj.sections.section.contentSection.textSection %>
 							</p>
 							</div>
 						</div>

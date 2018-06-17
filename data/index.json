@@ -1,0 +1,16 @@
+{
+  "pageTitle" : "Accueil",
+  "pageType"  : "mono",
+  "sections" :{
+    "section" : {
+        "idSection" : "1",
+        "contentSection" : {
+            "titleSection" : " Amram ELBAZ ",
+            "textSection" : " Bienvenue sur mon portfolio, je suis Amram ELBAZ, étudiant Master en Ingénierie Logicielle à l'In'Tech. <br/> Ce portfolio vient récapituler mon parcours en vu de soutenir mon Master."
+        }
+    }
+  },
+  "profilePic" :{
+    "link" : "/public/imgs/Amram3.jpg"
+  }
+}

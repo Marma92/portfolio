@@ -2,9 +2,8 @@ module.exports = function(app){
 	// =====================================
 	// TEMPLATE PAGE                ========
 	// =====================================
-
+var fs = require('fs');
 	app.get('/template', function(req, res) {
-    var fs = require('fs');
     fs.readFile('./data/template.json', 'utf8', function (err, data) {
         if (err) {
           console.log(err);

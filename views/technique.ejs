@@ -1,8 +1,8 @@
-<!-- views/template.ejs -->
+<!-- views/technique.ejs -->
 <!doctype html>
 <html>
 <head>
-	<title>Amram's Portfolio</title>
+	<title><%= obj.pageTitle %></title>
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
@@ -10,20 +10,47 @@
 	<% include ./partials/menu %>
   <div class="container">
       <div class="page-header text-center">
-        <h1> Compétences techniques </h1>
+        <h1><%= obj.sections.section.contentSection.titleSection %></h1>
 			</div>
           <div class="row">
 						<div class="col-sm-12 col-sm-offset-0" >
 							<div class="well">
 
             	<p id="content">
+								<%- obj.sections.section.contentSection.textSection %>
+								</section> %>
+								<table class="table table-striped">
+									<% for (var i = 0; i < obj.skillsData.length; i++) { %>
+									<%		if (i % 2 == 0){ %>
+												<tr>
+													<td>  </td>
+													<td>  </td>
+													<td><h4><%- obj.skillsData[i+1].skillName %> :</h4></td>
+												</tr>
+												<tr>
+											    <td><%- obj.skillsData[i+1].skillImage %></td>
+													<td><%- obj.skillsData[i+1].skillDescription %></td>
+											    <td><%- obj.skillsData[i+1].skillExample %></td>
+											  </tr>
+								<%		}else{ %>
+												<tr>
+													<td><h4><%- obj.skillsData[i+1].skillName %> :</h4></td>
+												</tr>
+												<tr>
+													<td><%- obj.skillsData[i+1].skillDescription %></td>
+													<td><%- obj.skillsData[i+1].skillExample %></td>
+													<td><%- obj.skillsData[i+1].skillImage %></td>
+												</tr>
+								<%		} %>
+							<%		} %>
+							</table>
 								<span id="archi"><h5>Architecture logicielle :</h5></span>
 								Je suis capable d’imaginer une solution logicielle, de lui choisir les technologies adaptées, d’en imaginer le développement et le découper en tâches atomiques, à distribuer et à réaliser.<br/>
 								Exemple : déjà mené des projets de la demande à la mise en production avec succès, notamment chez BNP Paribas Arbitrage où un <a href="/projetspro#bnp">outil de lecture de logs massifs</a> était nécessaire.
 							</br>
 							<h5> Récupération de la demande </h5>
 							<h5> Analyse et création d'un cahier des charges</h5>
-							<span id="algo"><h5> Résolution d'une problèmatique par une solution algorithmique</h5><span>
+							<span id="algo"><h4> Résolution d'une problèmatique par une solution algorithmique</h4><span>
 							<h5> Manipulation de différentes structures de données et d'algorithmes de tri</h5>
 							<h5> Appropriation d'une technologie/librairie</h5>
 							<h5> Langages natifs (C/C++)</h5>

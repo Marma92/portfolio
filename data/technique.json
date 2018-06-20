@@ -1,20 +1,34 @@
 {
-  "pageTitle" : "Template",
+  "pageTitle" : "Compétences Techniques",
   "pageType"  : "mono",
   "sections" :{
     "section" : {
         "idSection" : "1",
         "contentSection" : {
-            "titleSection" : " Lorem Ipsum ",
-            "textSection" : " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis, ipsum quis ullamcorper gravida, tortor tellus varius risus, id ultrices libero sapien eu justo. <br>Vivamus massa velit, bibendum ac convallis ac, bibendum quis risus.Proin porttitor ut quam et finibus. Sed pulvinar arcu nisi, non dignissim ante viverra ac. Vivamus nulla diam, lacinia ut ultrices id, egestas sit amet urna. Quisque consectetur, metus quis suscipit congue, sapien lorem sollicitudin nunc, id egestas sapien arcu et sapien. Vivamus luctus lacus sit amet est eleifend, vel pharetra libero cursus. <br/> Sed eu tincidunt felis. Suspendisse luctus felis ligula, eget interdum sem finibus non. Vivamus pulvinar justo ut metus egestas, eget molestie arcu pretium."
+            "titleSection" : " Compétences Techniques ",
+            "textSection" : " éventuelle introduction "
         }
-    }
-  },
-  "specificData" :{
-    "specificDataName" : "valeur de la data",
-    "specificDataNameExample" : "à venir dans les prochaines lignes",
-    "email" : "me@contact.com",
-    "linkedinAccount" : "https://linkedin.com/user/me"
-  },
-  "otherStuff" : "oui"
+      }
+    },
+  "skillsData":{
+    "1":{
+      "skillName" : "Architecture logicielle",
+      "skillDescription" : "Je suis capable d’imaginer une solution logicielle, de lui choisir les technologies adaptées, d’en imaginer le développement et le découper en tâches atomiques, à distribuer et à réaliser.",
+      "skillExample" : "déjà mené des projets de la demande à la mise en production avec succès, notamment chez BNP Paribas Arbitrage où un outil de lecture de logs massifs était nécessaire. ",
+      "skillImage" : "https://linkedin.com/user/me"
+    },
+    "2":{
+      "skillName" : "Résolution d'une problèmatique par une solution algorithmique",
+      "skillDescription" : "En gros du problem solving, quoi. Le coeur de mon métier. Je suis assez bon à ça. Enfin, je crois...",
+      "skillExample" : "Une fois j'ai créé une solution d'affichage bidouillée de ouf, et ça a permis d'afficher ce que tu lis comme ça.",
+      "skillImage" : "https://linkedin.com/user/me"
+    },
+    "3":{
+      "skillName" : "Résolution d'une problèmatique par une solution algorithmique",
+      "skillDescription" : "En gros du problem solving, quoi. Le coeur de mon métier. Je suis assez bon à ça. Enfin, je crois...",
+      "skillExample" : "Une fois j'ai créé une solution d'affichage bidouillée de ouf, et ça a permis d'afficher ce que tu lis comme ça.",
+      "skillImage" : "https://linkedin.com/user/me"
+    },
+    "length": 3
+  }
 }

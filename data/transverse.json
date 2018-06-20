@@ -1,20 +1,34 @@
 {
-  "pageTitle" : "Template",
+  "pageTitle" : "Compétences Transverses",
   "pageType"  : "mono",
   "sections" :{
     "section" : {
         "idSection" : "1",
         "contentSection" : {
-            "titleSection" : " Lorem Ipsum ",
-            "textSection" : " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis, ipsum quis ullamcorper gravida, tortor tellus varius risus, id ultrices libero sapien eu justo. <br>Vivamus massa velit, bibendum ac convallis ac, bibendum quis risus.Proin porttitor ut quam et finibus. Sed pulvinar arcu nisi, non dignissim ante viverra ac. Vivamus nulla diam, lacinia ut ultrices id, egestas sit amet urna. Quisque consectetur, metus quis suscipit congue, sapien lorem sollicitudin nunc, id egestas sapien arcu et sapien. Vivamus luctus lacus sit amet est eleifend, vel pharetra libero cursus. <br/> Sed eu tincidunt felis. Suspendisse luctus felis ligula, eget interdum sem finibus non. Vivamus pulvinar justo ut metus egestas, eget molestie arcu pretium."
+            "titleSection" : " Compétences Transverses ",
+            "textSection" : " éventuelle introduction :"
         }
-    }
-  },
-  "specificData" :{
-    "specificDataName" : "valeur de la data",
-    "specificDataNameExample" : "à venir dans les prochaines lignes",
-    "email" : "me@contact.com",
-    "linkedinAccount" : "https://linkedin.com/user/me"
-  },
-  "otherStuff" : "oui"
+      }
+    },
+  "skillsData":{
+    "1":{
+      "skillName" : "Prise de décisions",
+      "skillDescription" : "Je suis capable d’imaginer une solution logicielle, de lui choisir les technologies adaptées, d’en imaginer le développement et le découper en tâches atomiques, à distribuer et à réaliser.",
+      "skillExample" : "déjà mené des projets de la demande à la mise en production avec succès, notamment chez BNP Paribas Arbitrage où un outil de lecture de logs massifs était nécessaire. ",
+      "skillImage" : "https://linkedin.com/user/me"
+    },
+    "2":{
+      "skillName" : "Communication",
+      "skillDescription" : "En gros du problem solving, quoi. Le coeur de mon métier. Je suis assez bon à ça. Enfin, je crois...",
+      "skillExample" : "Une fois j'ai créé une solution d'affichage bidouillée de ouf, et ça a permis d'afficher ce que tu lis comme ça.",
+      "skillImage" : "https://linkedin.com/user/me"
+    },
+    "3":{
+      "skillName" : "Parler",
+      "skillDescription" : "Je suis un communiquant, que ce soit au sein d’une équipe, pour communiquer une avancée, un état d’esprit ou un ressenti, ou de manière générale pour exprimer, ou expliquer quelque chose, je sais me faire entendre, être clair, descriptif tout en restant concis. Sachant m’adapter à mon auditoire et ayant une bonne élocution, je suis grâce à mon parler, capable de présenter à un public, faire passer un message tout en étant convaincant pertinent et construit, que ce soit formel ou informel.",
+      "skillExample" : "Cela m’a permis de par le passé de présenter des projets de développement de par le passé à une clientèle assez huppée, de permettre des conciliations au sein de mes équipes de développement ou de convaincre un supérieur hiérarchique de revenir sur un choix technique.",
+      "skillImage" : "https://linkedin.com/user/me"
+    },
+    "length": 3
+  }
 }

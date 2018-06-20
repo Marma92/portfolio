@@ -17,6 +17,33 @@
 							<div class="well">
 
             	<p id="content">
+								<%- obj.sections.section.contentSection.textSection %>
+								</section> %>
+								<table class="table table-striped">
+									<% for (var i = 0; i < obj.skillsData.length; i++) { %>
+									<%		if (i % 2 == 0){ %>
+												<tr>
+													<td>  </td>
+													<td>  </td>
+													<td><h4><%- obj.skillsData[i+1].skillName %> :</h4></td>
+												</tr>
+												<tr>
+											    <td><%- obj.skillsData[i+1].skillImage %></td>
+													<td><%- obj.skillsData[i+1].skillDescription %></td>
+											    <td><%- obj.skillsData[i+1].skillExample %></td>
+											  </tr>
+								<%		}else{ %>
+												<tr>
+													<td><h4><%- obj.skillsData[i+1].skillName %> :</h4></td>
+												</tr>
+												<tr>
+													<td><%- obj.skillsData[i+1].skillDescription %></td>
+													<td><%- obj.skillsData[i+1].skillExample %></td>
+													<td><%- obj.skillsData[i+1].skillImage %></td>
+												</tr>
+								<%		} %>
+							<%		} %>
+							</table>
 										- Prise de décisions<br/>
 										- Communication<br/>
 										- Présentations devant divers publics<br/>

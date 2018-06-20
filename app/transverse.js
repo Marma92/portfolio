@@ -1,6 +1,14 @@
 module.exports = function(app){
 
-	app.get('/transverse', function(req, res) {
-		res.render('transverse.ejs');
-	});
+var fs = require('fs');
+app.get('/transverse', function(req, res) {
+	fs.readFile('./data/transverse.json', 'utf8', function (err, data) {
+		if (err) {
+			console.log(err);
+		}
+		var obj = JSON.parse(data);
+		console.log(obj.pageTitle);
+		res.render('transverse.ejs', {obj : obj});
+			});
+		});
 }

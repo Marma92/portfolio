@@ -13,3 +13,8 @@
 #meHeader{
   border-bottom: none;
 }
+
+.projectImg{
+  width: 7em;
+  height: 7em;
+}

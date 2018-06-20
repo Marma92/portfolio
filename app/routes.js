@@ -1,6 +1,6 @@
 module.exports = function(app){
 	require("./index")(app);
-	require("./cv")(app);
+	require("./experience")(app);
 	require("./technique")(app);
 	require("./realisations")(app);
 	require("./me")(app);

@@ -1,8 +1,8 @@
-<!-- views/cv.ejs -->
+<!-- views/experience.ejs -->
 <!doctype html>
 <html>
 <head>
-	<title>Amram's Portfolio</title>
+	<title><%= obj.pageTitle %></title>
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
@@ -10,43 +10,42 @@
 	<% include ./partials/menu %>
   <div class="container">
       <div class="page-header text-center">
-        <h1> Curriculum Vitae </h1>
+        <h1><%= obj.sections.section.contentSection.titleSection %></h1>
 			</div>
+			<table class="table table-striped">
+				<% for (var i = 1; i <= obj.experiences.length; i++) { %>
+							<tr>
+								<td class="year">
+									<h4><%- obj.experiences[i].year %></h4>
+											<%- obj.experiences[i].title %>
+								</td>
+								<td><ul><li></li></ul></td>
+								<td class="graduation">
+									<h4><%- obj.experiences[i].missions %></h4>
+									<p><%- obj.experiences[i].description %></p>
+									<b>@</b><i><%- obj.experiences[i].company %></i><br/>
+								</td>
+								<td>
+									<img src="<%- obj.experiences[i].img %>" class="schoolImg"/>
+								</td>
+							</tr>
+		<%		} %>
+		</table>
 					<div class="row">
 						<div class="col-sm-12 col-sm-offset-0" >
 							<div class="well">
 
 							<p id="content">
-								A terme: Un CV tout ce qu'il y a de plus classique et formel avec la possibilité en prime de le télécharger au format pdf. Mise en forme à venir.
-								<h2>Développeur, Architecte Logiciel</h2>
-									<br/>Amram ELBAZ, 24 ans, célibataire.<br/>
-									Formation :<br/>
-									2015-2016 :	Diplômé d’un Bachelor en Architecture Logicielle à l’Ecole Supérieure de Génie Informatique (ESGI), Paris 12ème.<br/>
-
-									2012-2014 :	Diplômé du BTS Services Informatiques aux Organisations spécialité Solutions Logicielles et Applications au Lycée Saint-Michel de Picpus, Saint-Mandé (94).<br/>
-									2011-2015 :	Licence de Littérature et Culture Etrangère, Université de Lorraine, (ex-Nancy II, 67).<br/>
-									2010-2011 :	Diplômé du Baccalauréat, série Economique et Sociale, Lycée Ozar Hatorah Créteil (94).<br/>
-
 									Compétences Informatiques :<br/>
 									Systèmes d’exploitation :	Windows, Linux, Mac OS X, Android.<br/>
 									Langages :	Java 8, C, Python 3, C++, VBA, HTML/CSS/PHP, Javascript, Node.js, PERL,<br/>
 									Powershell, Bash.<br/>
 									Méthodes d’analyse :	MERISE, UML.<br/>
 
-									Expérience Professionnelle :<br/>
-
-									Octobre-Juillet 2016 :	Architecte logiciel, responsable du développement à Securiview, Saint-Ouen (93), plusieurs missions dont une application en Node.js et du scripting.<br/>
-									Mai-Septembre 2015 : 	Stagiaire Développeur pour BNP Paribas Arbitrage, Paris, développement d’outils d’analyse et d’affichage de logs en Java 8 (JavaFX).<br/>
-									Janvier-Février 2014 :	Raise –UP ! Films, Paris : Développement d’une application iPhone en Objective-C, destinée à iOS7.<br/>
-									Mai-Juin 2013 :	ACCCI, Neuilly sur Marne (93) : Réfection temporaire d’un site internet, dans le cadre du stage de première année de BTS SIO.<br/>
-									Juillet 2007 :	SEDITEC, Noisy-le-Sec (93) : Réparations de matériel informatique, télémaintenances.<br/>
-
-
 									Centres d’intérêts :<br/>
 									-Sciences, Nouvelles Technologies et électronique.<br/>
 									-Musique.<br/>
 									-Arts Martiaux.<br/>
-
 							</p>
 							</div>
 						</div>

@@ -1,20 +1,56 @@
 {
-  "pageTitle" : "Template",
-  "pageType"  : "mono",
+  "pageTitle" : "Experience",
+  "pageType"  : "histogram",
   "sections" :{
     "section" : {
         "idSection" : "1",
         "contentSection" : {
-            "titleSection" : " Lorem Ipsum ",
-            "textSection" : " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis, ipsum quis ullamcorper gravida, tortor tellus varius risus, id ultrices libero sapien eu justo. <br>Vivamus massa velit, bibendum ac convallis ac, bibendum quis risus.Proin porttitor ut quam et finibus. Sed pulvinar arcu nisi, non dignissim ante viverra ac. Vivamus nulla diam, lacinia ut ultrices id, egestas sit amet urna. Quisque consectetur, metus quis suscipit congue, sapien lorem sollicitudin nunc, id egestas sapien arcu et sapien. Vivamus luctus lacus sit amet est eleifend, vel pharetra libero cursus. <br/> Sed eu tincidunt felis. Suspendisse luctus felis ligula, eget interdum sem finibus non. Vivamus pulvinar justo ut metus egestas, eget molestie arcu pretium."
+            "titleSection" : " Experience ",
+            "textSection" : ""
         }
     }
   },
-  "specificData" :{
-    "specificDataName" : "valeur de la data",
-    "specificDataNameExample" : "à venir dans les prochaines lignes",
-    "email" : "me@contact.com",
-    "linkedinAccount" : "https://linkedin.com/user/me"
-  },
-  "otherStuff" : "oui"
+  "experiences" :{
+    "1":{
+        "year" : "2016-Maintenant",
+        "title" : "Main Developer",
+        "company": "Adexgroup",
+        "missions" : "Développement et maintenance de solutions",
+        "description" : "Mise à jour de solutions de remontée de compteurs,<br/>Mise à jour et réparation d'une solution de gestion de pistes commerciales.<br/> ",
+        "img": ""
+      },
+      "2":{
+          "year" : "2015-2016",
+          "title" : "Main Developer",
+          "company": "Securiview",
+          "missions" : "Développement de solutions, Rationnalisation de la donnée",
+          "description" : "",
+          "img": ""
+      },
+      "3":{
+          "year" : "2015",
+          "title" : "Developpeur Stagiaire",
+          "company": "BNP Paribas Logiciel",
+          "missions" : "Développement d'un logiciel de parsing et de lecture de logs",
+          "description" : "",
+          "img": ""
+      },
+      "4":{
+          "year" : "2014",
+          "title" : "Développeur",
+          "company": "Crazy Unicorn (pour Raise Up! Films)",
+          "missions" : "Développement d'une application iPhone",
+          "description" : "",
+          "img": ""
+      },
+      "5":{
+          "year" : "2013",
+          "title" : "Développeur",
+          "company": "ACCCI Neuilly sur Marne",
+          "missions" : "Développement d'un site internet associatif",
+          "description" : "",
+          "img": ""
+      },
+      "length" : 5
+  }
 }

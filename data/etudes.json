@@ -1,12 +1,12 @@
 {
   "pageTitle" : "Etudes",
-  "pageType"  : "mono",
+  "pageType"  : "histogram",
   "sections" :{
     "section" : {
         "idSection" : "1",
         "contentSection" : {
             "titleSection" : " Etudes ",
-            "textSection" : "Ingénieur Logiciel - Lead Developer @  <a href=\"http://adexgroup.netisse.eu/\"><i>Adexgroup</i></a> ."
+            "textSection" : ""
         }
     }
   },

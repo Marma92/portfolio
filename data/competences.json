@@ -1,0 +1,13 @@
+{
+  "pageTitle" : "Competences",
+  "pageType"  : "mono",
+  "sections" :{
+    "section" : {
+        "idSection" : "1",
+        "contentSection" : {
+            "titleSection" : " Compétences",
+            "textSection" : " Se séparent en deux catégories, techniques et transverses"
+        }
+    }
+  }
+}

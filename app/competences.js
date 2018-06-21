@@ -1,16 +1,16 @@
 module.exports = function(app){
 	// =====================================
-	// REALISATIONS PAGE                ====
+	// COMPETENCES PAGE                =====
 	// =====================================
 var fs = require('fs');
-	app.get('/realisations', function(req, res) {
-    fs.readFile('./data/realisations.json', 'utf8', function (err, data) {
+	app.get('/competences', function(req, res) {
+    fs.readFile('./data/competences.json', 'utf8', function (err, data) {
         if (err) {
           console.log(err);
         }
         var obj = JSON.parse(data);
 				console.log(obj.pageTitle);
-        res.render('realisations.ejs', {obj : obj}); 
+        res.render('competences.ejs', {obj : obj}); // load the competences.ejs file
       });
 	});
 }

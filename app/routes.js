@@ -8,7 +8,6 @@ module.exports = function(app){
 	require("./competences")(app);
 	require("./technique")(app);
 	require("./transverse")(app);
-	require("./parcours.js")(app);
 	require("./projetspro")(app);
 	require("./projetsperso")(app);
 	require("./dungeonrpg")(app);

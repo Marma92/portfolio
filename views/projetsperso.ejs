@@ -13,26 +13,19 @@
         <h1><%= obj.sections.section.contentSection.titleSection %></h1>
 			</div>
 					<div class="row">
-						<div class="col-sm-12"><center><h3><%= obj.projects.schoolProjects.categoryName %>:</h3></center></div>
-						<% for (var i = 1; i <= obj.projects.schoolProjects.length; i++) { %>
+					<% for (var h = 1; h <= obj.projects.categories.length; h++) { %>
+						<div class="col-sm-12"><center><h3><%= obj.projects.categories[h].categoryName %>:</h3></center></div>
+						<% for (var i = 1; i <= obj.projects.categories[h].length; i++) { %>
 						<div class="col-sm-3">
-							<% if (obj.projects.schoolProjects[i].projectPicture != ""){ %>
-								<img src=" <%= obj.projects.schoolProjects[i].projectPicture %>" class="projectImg"/>
+							<% if (obj.projects.categories[h][i].projectPicture != ""){ %>
+								<img src=" <%= obj.projects.categories[h][i].projectPicture %>" class="projectImg"/>
 							<% } %>
-							<h4><a href="<%= obj.projects.schoolProjects[i].projectLink %>"><%= obj.projects.schoolProjects[i].projectName %></a></h4>
-							<p><%= obj.projects.schoolProjects[i].projectDescription %></p>
+							<h4><a href="<%= obj.projects.categories[h][i].projectLink %>"><%= obj.projects.categories[h][i].projectName %></a></h4>
+							<p><%= obj.projects.categories[h][i].projectDescription %></p>
 						</div>
 						<% } %>
-						<div class="col-sm-12"><center><h3><%= obj.projects.sideProjects.categoryName %>:</h3></center></div>
-						<% for (var i = 1; i <= obj.projects.sideProjects.length; i++) { %>
-						<div class="col-sm-3">
-							<% if (obj.projects.sideProjects[i].projectPicture != ""){ %>
-								<img src=" <%= obj.projects.sideProjects[i].projectPicture %>" class="projectImg"/>
-							<% } %>
-							<h4><a href="<%= obj.projects.sideProjects[i].projectLink %>"><%= obj.projects.sideProjects[i].projectName %></a></h4>
-							<p><%= obj.projects.sideProjects[i].projectDescription %></p>
-						</div>
-						<% } %>
+					<% } %>
+
 					</div>
 	</div>
 

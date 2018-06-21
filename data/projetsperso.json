@@ -11,55 +11,59 @@
     }
   },
   "projects" :{
-    "schoolProjects" :{
-      "categoryName" : "Projets Scolaires",
+    "categories" :{
       "1":{
-        "projectName" : "DungeonRPG",
-        "projectLink" : "/realisations/dungeonrpg",
-        "projectDescription" : "La rencontre d'un RPG et d'un Dungeon Scroller, développé en Python",
-        "projectPicture" : "public/imgs/dungeonrpg.png"
+        "categoryName" : "Projets Scolaires",
+        "1":{
+          "projectName" : "DungeonRPG",
+          "projectLink" : "/realisations/dungeonrpg",
+          "projectDescription" : "La rencontre d'un RPG et d'un Dungeon Scroller, développé en Python",
+          "projectPicture" : "public/imgs/dungeonrpg.png"
+        },
+        "2":{
+          "projectName" : "Bjs-foot",
+          "projectLink" : "",
+          "projectDescription" : "Tirer dans un ballon... en trois dimension, dans un navigateur.",
+          "projectPicture" : ""
+        },
+        "3":{
+          "projectName" : "Petbook",
+          "projectLink" : "",
+          "projectDescription" : "Mon chat aussi a le droit d'avoir son réseau social",
+          "projectPicture" : ""
+        },
+        "4":{
+          "projectName" : "FARGEX",
+          "projectLink" : "",
+          "projectDescription" : "Un pseudo-langage, développé à l'aide de YACC et Lex",
+          "projectPicture" : ""
+        },
+        "length" : 4
       },
       "2":{
-        "projectName" : "Bjs-foot",
-        "projectLink" : "",
-        "projectDescription" : "Tirer dans un ballon... en trois dimension, dans un navigateur.",
-        "projectPicture" : ""
+        "categoryName" : "Projets Personnels",
+        "1":{
+          "projectName" : "Node Source Improved ",
+          "projectLink" : "",
+          "projectDescription" : "Déployer un serveur Node.js sous Linux n'a jamais été aussi simple",
+          "projectPicture" : ""
+        },
+        "2":{
+          "projectName" : "InMyKitchen",
+          "projectLink" : "",
+          "projectDescription" : "\"Qu'est ce que je peux cuisiner ce soir ?\" La réponse sur vôtre iPhone.",
+          "projectPicture" : ""
+        },
+        "3":{
+          "projectName" : "My (cheap) Own Cloud",
+          "projectLink" : "",
+          "projectDescription" : "Que faire quand on doute des prestataires cloud ? Mettre en place le sien, pardi!",
+          "projectPicture" : ""
+        },
+        "length" : 3
       },
-      "3":{
-        "projectName" : "Petbook",
-        "projectLink" : "",
-        "projectDescription" : "Mon chat aussi a le droit d'avoir son réseau social",
-        "projectPicture" : ""
-      },
-      "4":{
-        "projectName" : "FARGEX",
-        "projectLink" : "",
-        "projectDescription" : "Un pseudo-langage, développé à l'aide de YACC et Lex",
-        "projectPicture" : ""
-      },
-      "length" : 4
-    },
-    "sideProjects"  :{
-      "categoryName" : "Projets Personnels",
-      "1":{
-        "projectName" : "Node Source Improved ",
-        "projectLink" : "",
-        "projectDescription" : "Déployer un serveur Node.js sous Linux n'a jamais été aussi simple",
-        "projectPicture" : ""
-      },
-      "2":{
-        "projectName" : "InMyKitchen",
-        "projectLink" : "",
-        "projectDescription" : "\"Qu'est ce que je peux cuisiner ce soir ?\" La réponse sur vôtre iPhone.",
-        "projectPicture" : ""
-      },
-      "3":{
-        "projectName" : "My (cheap) Own Cloud",
-        "projectLink" : "",
-        "projectDescription" : "Que faire quand on doute des prestataires cloud ? Mettre en place le sien, pardi!",
-        "projectPicture" : ""
-      },
-      "length" : 3
+    "length": 2
     }
   }
+
 }

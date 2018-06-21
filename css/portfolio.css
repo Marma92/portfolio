@@ -25,8 +25,8 @@
 }
 
 .schoolImg{
-  width: 5em;
-  height: 5em;
+  width: 8em;
+  object-fit: cover;
 }
 
 .year{

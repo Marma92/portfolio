@@ -1,11 +1,11 @@
 {
-  "pageTitle" : "Experience",
+  "pageTitle" : "Expérience",
   "pageType"  : "histogram",
   "sections" :{
     "section" : {
         "idSection" : "1",
         "contentSection" : {
-            "titleSection" : " Experience ",
+            "titleSection" : " Expérience ",
             "textSection" : ""
         }
     }
@@ -16,39 +16,39 @@
         "title" : "Main Developer",
         "company": "Adexgroup",
         "missions" : "Développement et maintenance de solutions",
-        "description" : "Mise à jour de solutions de remontée de compteurs,<br/>Mise à jour et réparation d'une solution de gestion de pistes commerciales.<br/> ",
-        "img": ""
+        "description" : "Mise à jour d'une solution de remontée de compteurs, côté serveur(PHP) et client (BASH),<br/>Mise à jour et réparation d'une solution de gestion de pistes commerciales(PHP/SQL/JavaScript),<br/>Développement d'une solution de gestions de stock Amazon (PHP/SQL/MWS API),<br/>Développement d'une application intégrée aux imprimantes Xerox (JavaScript, API Xerox, Node.js),<br/>Développement d'une solution de remontée de compteurs simplifiée (PERL),<br/>Mise en place d'un environnement de développement outillé (Serveurs GitLab, DokuWiki, OwnCloud...).",
+        "img": "public/imgs/adexlogo.png"
       },
       "2":{
           "year" : "2015-2016",
-          "title" : "Main Developer",
+          "title" : "Developpeur",
           "company": "Securiview",
           "missions" : "Développement de solutions, Rationnalisation de la donnée",
-          "description" : "",
-          "img": ""
+          "description" : "Centralisation de l'arrivée des données par différents scriptings (BASH, PERL),<br/>Développement d'une API permettant l'affichage de l'état d'un système client (NodeJS, API OPManager),<br/>Réparations de systèmes clients par scripting(BASH, PowerShell).",
+          "img": "public/imgs/securilogo.png"
       },
       "3":{
           "year" : "2015",
           "title" : "Developpeur Stagiaire",
-          "company": "BNP Paribas Logiciel",
+          "company": "BNP Paribas Arbitrage",
           "missions" : "Développement d'un logiciel de parsing et de lecture de logs",
-          "description" : "",
-          "img": ""
+          "description" : "Développement d'une solution logicielle de bout en bout: de la demande à la mise en production,<br/>Adaptation d'une solution de parsing à un modèle de données,<br/>Développement d'une solution lourde avec Interface Graphique (Java/JavaFX).",
+          "img": "public/imgs/bnplogo.png"
       },
       "4":{
           "year" : "2014",
-          "title" : "Développeur",
+          "title" : "Développeur Stagiaire",
           "company": "Crazy Unicorn (pour Raise Up! Films)",
           "missions" : "Développement d'une application iPhone",
-          "description" : "",
-          "img": ""
+          "description" : "Développement d'une application mobile sur un thème culinaire: inMyKitchen,<br/>Application à destination d'iOS7 (Objective-C)",
+          "img": "public/imgs/raiseuplogo.png"
       },
       "5":{
           "year" : "2013",
-          "title" : "Développeur",
+          "title" : "Développeur Stagiaire",
           "company": "ACCCI Neuilly sur Marne",
-          "missions" : "Développement d'un site internet associatif",
-          "description" : "",
+          "missions" : "Mise en place d'un site internet associatif",
+          "description" : "Mise en place d'un serveur WordPress,<br/>Développement d'un template WordPress personnalisé (PHP/HTML/CSS)",
           "img": ""
       },
       "length" : 5

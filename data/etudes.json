@@ -16,35 +16,35 @@
         "graduation" : "Master (BAC+5)",
         "school": "In'Tech Paris",
         "subject" : "Ingénierie Logicielle",
-        "img": ""
+        "img": "public/imgs/intechlogo.png"
       },
       "2":{
           "year" : "2014-2016",
           "graduation" : "Bachelor (BAC+3)",
           "school": "ESGI Paris",
           "subject" : "Architecture Logicielle",
-          "img": ""
+          "img": "public/imgs/esgilogo.png"
         },
       "3":{
           "year" : "2012-2014",
           "graduation" : "BTS (BAC +2)",
           "school": "St-Michel de Picpus",
           "subject" : "BTS Services Informatiques aux Organisations (SLAM)",
-          "img": ""
+          "img": "public/imgs/stmichlogo.png"
         },
       "4":{
           "year" : "2010-2011",
           "graduation" : "Baccalauréat",
           "school": "Ozar Hatorah Créteil",
           "subject" : "Baccalauréat Economique et Social",
-          "img": ""
+          "img": "public/imgs/ozarlogo.png"
         },
       "5":{
           "year" : "2011-2015",
           "graduation" : "Licence (BAC+3)",
-          "school": "Académie de Lorraine (Ex-Nancy II)",
+          "school": "Université de Lorraine (Ex-Nancy II)",
           "subject" : "Langue Littérature et Culture Etrangére",
-          "img": ""
+          "img": "public/imgs/lorrainelogo.png"
         },
       "length" : 5
   }

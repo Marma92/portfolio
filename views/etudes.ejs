@@ -1,0 +1,38 @@
+<!-- views/template.ejs -->
+<!doctype html>
+<html>
+<head>
+	<title><%= obj.pageTitle %></title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+	<% include ./partials/menu %>
+  <div class="container">
+		<div class="page-header text-center">
+			<h1><%= obj.sections.section.contentSection.titleSection %></h1>
+		</div>
+				<table class="table table-striped">
+					<% for (var i = 1; i <= obj.studies.length; i++) { %>
+								<tr>
+									<td class="year">
+										<h4><%- obj.studies[i].year %></h4>
+												<%- obj.studies[i].graduation %>
+									</td>
+									<td><ul><li></li></ul></td>
+									<td class="graduation">
+										<h4><%- obj.studies[i].subject %></h4>
+										<i><%- obj.studies[i].school %></i><br/>
+									</td>
+									<td>
+										<img src="<%- obj.studies[i].img %>" class="schoolImg"/>
+									</td>
+								</tr>
+			<%		} %>
+			</table>
+  </div>
+</div>
+
+  <% include ./partials/footer %>
+</body>
+</html>

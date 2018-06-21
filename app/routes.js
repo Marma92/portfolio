@@ -3,6 +3,7 @@ module.exports = function(app){
 	require("./experience")(app);
 	require("./technique")(app);
 	require("./realisations")(app);
+	require("./etudes")(app);
 	require("./me")(app);
 	require("./contact")(app);
 	require("./transverse")(app);

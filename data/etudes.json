@@ -1,0 +1,51 @@
+{
+  "pageTitle" : "Etudes",
+  "pageType"  : "mono",
+  "sections" :{
+    "section" : {
+        "idSection" : "1",
+        "contentSection" : {
+            "titleSection" : " Etudes ",
+            "textSection" : "Ingénieur Logiciel - Lead Developer @  <a href=\"http://adexgroup.netisse.eu/\"><i>Adexgroup</i></a> ."
+        }
+    }
+  },
+  "studies" :{
+    "1":{
+        "year" : "2016-2018",
+        "graduation" : "Master (BAC+5)",
+        "school": "In'Tech Paris",
+        "subject" : "Ingénierie Logicielle",
+        "img": ""
+      },
+      "2":{
+          "year" : "2014-2016",
+          "graduation" : "Bachelor (BAC+3)",
+          "school": "ESGI Paris",
+          "subject" : "Architecture Logicielle",
+          "img": ""
+        },
+      "3":{
+          "year" : "2012-2014",
+          "graduation" : "BTS (BAC +2)",
+          "school": "St-Michel de Picpus",
+          "subject" : "BTS Services Informatiques aux Organisations (SLAM)",
+          "img": ""
+        },
+      "4":{
+          "year" : "2010-2011",
+          "graduation" : "Baccalauréat",
+          "school": "Ozar Hatorah Créteil",
+          "subject" : "Baccalauréat Economique et Social",
+          "img": ""
+        },
+      "5":{
+          "year" : "2011-2015",
+          "graduation" : "Licence (BAC+3)",
+          "school": "Académie de Lorraine (Ex-Nancy II)",
+          "subject" : "Langue Littérature et Culture Etrangére",
+          "img": ""
+        },
+      "length" : 5
+  }
+}

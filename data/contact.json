@@ -1,13 +1,47 @@
 {
-  "pageTitle" : "Amram ELBAZ",
-  "articles" :{
-    "article" : {
-        "idArticle" : "1",
-        "contentArticle" : {
-            "titleArticle" : " Contact ",
-            "textArticle" : " Pour me contacter : blablabla"
-        }
+  "pageTitle" : "Contact",
+  "pageType"  : "contact",
+  "sections" :{
+    "section" : {
+        "idSection" : "1",
+        "contentSection" : {
+            "titleSection" : "Contact",
+            "textSection" : ""
     }
-  },
-  "otherStuff" : "oui"
+  }
+},
+"profilePic" :{
+  "link" : "/public/imgs/Amram3.jpg"
+},
+  "contactInfos" :{
+    "1" :{
+      "contactInfoName": "email",
+      "contactInfoValue": "elbaz.amram@gmail.com",
+      "contactInfoFAClass": "fa fa-at fa-5x fa-fw",
+      "color": "",
+      "isAnEmail": 1
+    },
+    "2" :{
+      "contactInfoName": "LinkedIn",
+      "contactInfoValue": "https://www.linkedin.com/in/amramelbaz/",
+      "contactInfoFAClass": "fa fa-linkedin fa-5x fa-fw",
+      "color": "",
+      "isAnEmail": 0
+    },
+    "3" :{
+      "contactInfoName": "Twitter",
+      "contactInfoValue": "https://twitter.com/Le_Marma",
+      "contactInfoFAClass": "fa fa-twitter fa-5x fa-fw",
+      "color": "",
+      "isAnEmail": 0
+    },
+    "4" :{
+      "contactInfoName": "Github",
+      "contactInfoValue": "https://github.com/Marma92",
+      "contactInfoFAClass": "fa fa-github-alt fa-5x fa-fw",
+      "color": "",
+      "isAnEmail": 0
+    },
+    "length": 4
+  }
 }

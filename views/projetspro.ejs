@@ -2,7 +2,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>Amram's Portfolio</title>
+	<title><%= obj.pageTitle %></title>
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
@@ -10,28 +10,24 @@
 	<% include ./partials/menu %>
   <div class="container">
       <div class="page-header text-center">
-        <h1> Projets professionnels </h1>
+        <h1><%= obj.sections.section.contentSection.titleSection %></h1>
 			</div>
 					<div class="row">
-						<div class="col-sm-12 col-sm-offset-0" >
-							<div class="well">
-
-							<p id="content">
-								<h4>BNP Paribas Arbitrage:</h4>
-								<span id="bnp">Outil de parsing, affichage et traitement de logs</span>
-								<h4>Securiview</h4>
-								Rationnalisation des données<br/>
-								Développement d'une API en Node.js
-								<h4>Adexgroup</h4>
-								Développement d'outils internes destinés aux commerciaux<br/>
-								Développement d'une nouvelle version d'un outil de tracking existant<br/>
-								Développement d'outils intéragissants avec des imprimantes XEROX<br/>
-							</p>
-							</div>
+					<% for (var h = 1; h <= obj.projects.categories.length; h++) { %>
+						<div class="col-sm-12"><center><h3><%= obj.projects.categories[h].categoryName %>:</h3></center></div>
+						<% for (var i = 1; i <= obj.projects.categories[h].length; i++) { %>
+						<div class="col-sm-3">
+							<% if (obj.projects.categories[h][i].projectPicture != ""){ %>
+								<img src=" <%= obj.projects.categories[h][i].projectPicture %>" class="projectImg"/>
+							<% } %>
+							<h4><a href="<%= obj.projects.categories[h][i].projectLink %>"><%= obj.projects.categories[h][i].projectName %></a></h4>
+							<p><%= obj.projects.categories[h][i].projectDescription %><br/><br/>
+							<i><%= obj.projects.categories[h][i].projectCompany %></i></p>
 						</div>
-					</div>
+						<% } %>
+					<% } %>
+			</div>
 	</div>
-
   <% include ./partials/footer %>
 </body>
 </html>

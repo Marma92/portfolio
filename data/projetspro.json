@@ -1,0 +1,90 @@
+{
+  "pageTitle" : "Réalisations Professionnelles",
+  "pageType"  : "custom",
+  "sections" :{
+    "section" : {
+        "idSection" : "1",
+        "contentSection" : {
+            "titleSection" : "Réalisations Professionnelles",
+            "textSection" : "réalisations dans le cadre de mes expériences professionnelles:"
+        }
+    }
+  },
+  "projects" :{
+    "categories" :{
+      "1":{
+        "categoryName" : "Solutions",
+        "1":{
+          "projectName" : "Force Logs Reader",
+          "projectLink" : "",
+          "projectDescription" : "Décortiquer les informations de fonctionnement du logiciel de virtualisation des marchés",
+          "projectCompany" : "BNP Paribas Arbitrage",
+          "projectPicture" : ""
+        },
+        "2":{
+          "projectName" : "Rationnalisation des données",
+          "projectLink" : "",
+          "projectDescription" : "Renvoyer des données uniforme vers un seul et même logiciel de gestion de tickets: OPManager",
+          "projectCompany" : "Securiview",
+          "projectPicture" : ""
+        },
+        "3":{
+          "projectName" : "Securi-API",
+          "projectLink" : "",
+          "projectDescription" : "Développement d'une API Node.js, permettant la consultation de données concernant un système",
+          "projectCompany" : "Securiview",
+          "projectPicture" : ""
+        },
+        "4":{
+          "projectName" : "Adex-Leads",
+          "projectLink" : "",
+          "projectDescription" : "Mise à jour, debugging et implémentation de fonctionnalités pour une solution de gestion de pistes commerciales ",
+          "projectCompany" : "Adexgroup",
+          "projectPicture" : ""
+        },
+        "5":{
+          "projectName" : "AdexBox",
+          "projectLink" : "",
+          "projectDescription" : "Mise à jour d'une solution de tracking et de compteur d'impressions",
+          "projectCompany" : "Adexgroup",
+          "projectPicture" : ""
+        },
+        "6":{
+          "projectName" : "Adex-Compteurs",
+          "projectLink" : "",
+          "projectDescription" : "Développement d'une alternative aux systèmes de tracking pour la remontée des compteurs d'impressions ",
+          "projectCompany" : "Adexgroup",
+          "projectPicture" : ""
+        },
+        "length" : 6
+      },
+      "2":{
+        "categoryName" : "Autres",
+        "1":{
+          "projectName" : "Node Source Improved ",
+          "projectLink" : "",
+          "projectDescription" : "Déployer un serveur Node.js sous Linux n'a jamais été aussi simple",
+          "projectCompany" : "BNP Paribas Arbitrage",
+          "projectPicture" : ""
+        },
+        "2":{
+          "projectName" : "InMyKitchen",
+          "projectLink" : "",
+          "projectDescription" : "\"Qu'est ce que je peux cuisiner ce soir ?\" La réponse sur vôtre iPhone.",
+          "projectCompany" : "BNP Paribas Arbitrage",
+          "projectPicture" : ""
+        },
+        "3":{
+          "projectName" : "My (cheap) Own Cloud",
+          "projectLink" : "",
+          "projectDescription" : "Que faire quand on doute des prestataires cloud ? Mettre en place le sien, pardi!",
+          "projectCompany" : "BNP Paribas Arbitrage",
+          "projectPicture" : ""
+        },
+        "length" : 3
+      },
+    "length": 2
+    }
+  }
+
+}

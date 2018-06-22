@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 <body>
-	<% include ./partials/menu %>
+	<% include ../partials/menu %>
   <div class="container">
       <div class="page-header text-center">
         <h1><%= obj.sections.section.contentSection.titleSection %></h1>
@@ -17,15 +17,13 @@
 							<div class="well">
 
             	<p id="content">
-									<center><%- obj.sections.section.contentSection.textSection %></center>
-									<div class="col-sm-4"><a href="/technique"><h3>Compétences Techniques</h3></a></div>
-									<div class="col-sm-4 col-sm-offset-4"><a href="/transverses"><h3>Compétences Transverses</h3></a></div>
+									<%- obj.sections.section.contentSection.textSection %>
             	</p>
 							</div>
 						</div>
           </div>
   </div>
 
-  <% include ./partials/footer %>
+  <% include ../partials/footer %>
 </body>
 </html>

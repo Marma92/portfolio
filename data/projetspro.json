@@ -16,43 +16,43 @@
         "categoryName" : "Solutions",
         "1":{
           "projectName" : "Force Logs Reader",
-          "projectLink" : "",
+          "projectLink" : "/realisations/forcelogs",
           "projectDescription" : "Décortiquer les informations de fonctionnement du logiciel de virtualisation des marchés",
           "projectCompany" : "BNP Paribas Arbitrage",
           "projectPicture" : ""
         },
         "2":{
-          "projectName" : "Rationnalisation des données",
-          "projectLink" : "",
+          "projectName" : "Rationalisation des données",
+          "projectLink" : "/realisations/rationalisation",
           "projectDescription" : "Renvoyer des données uniforme vers un seul et même logiciel de gestion de tickets: OPManager",
           "projectCompany" : "Securiview",
           "projectPicture" : ""
         },
         "3":{
           "projectName" : "Securi-API",
-          "projectLink" : "",
+          "projectLink" : "/realisations/securiapi",
           "projectDescription" : "Développement d'une API Node.js, permettant la consultation de données concernant un système",
           "projectCompany" : "Securiview",
           "projectPicture" : ""
         },
         "4":{
           "projectName" : "Adex-Leads",
-          "projectLink" : "",
+          "projectLink" : "/realisations/adexleads",
           "projectDescription" : "Mise à jour, debugging et implémentation de fonctionnalités pour une solution de gestion de pistes commerciales ",
           "projectCompany" : "Adexgroup",
           "projectPicture" : ""
         },
         "5":{
           "projectName" : "AdexBox",
-          "projectLink" : "",
+          "projectLink" : "/realisations/adexbox",
           "projectDescription" : "Mise à jour d'une solution de tracking et de compteur d'impressions",
           "projectCompany" : "Adexgroup",
           "projectPicture" : ""
         },
         "6":{
-          "projectName" : "Adex-Compteurs",
-          "projectLink" : "",
-          "projectDescription" : "Développement d'une alternative aux systèmes de tracking pour la remontée des compteurs d'impressions ",
+          "projectName" : "Adex-MWS",
+          "projectLink" : "/realisations/adexmws",
+          "projectDescription" : "Développement d'un système de gestion de stocks d'une boutique Amazon",
           "projectCompany" : "Adexgroup",
           "projectPicture" : ""
         },
@@ -61,24 +61,24 @@
       "2":{
         "categoryName" : "Autres",
         "1":{
-          "projectName" : "Node Source Improved ",
-          "projectLink" : "",
-          "projectDescription" : "Déployer un serveur Node.js sous Linux n'a jamais été aussi simple",
-          "projectCompany" : "BNP Paribas Arbitrage",
+          "projectName" : "Optimisations/Réparations de systèmes client",
+          "projectLink" : "/realisations/optimisation",
+          "projectDescription" : "Diagnostics de pannes systèmes et résolution des problèmes rencontrés par une solution logicielle ",
+          "projectCompany" : "Securiview",
           "projectPicture" : ""
         },
         "2":{
           "projectName" : "InMyKitchen",
-          "projectLink" : "",
+          "projectLink" : "/realisations/inmykitchen",
           "projectDescription" : "\"Qu'est ce que je peux cuisiner ce soir ?\" La réponse sur vôtre iPhone.",
-          "projectCompany" : "BNP Paribas Arbitrage",
+          "projectCompany" : "Crazy Unicorn (Pour Raise Up! Films)",
           "projectPicture" : ""
         },
         "3":{
-          "projectName" : "My (cheap) Own Cloud",
-          "projectLink" : "",
-          "projectDescription" : "Que faire quand on doute des prestataires cloud ? Mettre en place le sien, pardi!",
-          "projectCompany" : "BNP Paribas Arbitrage",
+          "projectName" : "Automatisations",
+          "projectLink" : "/realisations/automatisation",
+          "projectDescription" : "Automatisation de tâches de manipulation de comptes clients dans GLPI",
+          "projectCompany" : "Adexgroup",
           "projectPicture" : ""
         },
         "length" : 3

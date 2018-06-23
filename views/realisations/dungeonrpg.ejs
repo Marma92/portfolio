@@ -9,7 +9,11 @@
 	<% include ../partials/menu %>
   <div class="container">
       <div class="page-header text-center">
+				<%if(obj.sections.section.contentSection.titleLink !== ""){ %>
         <h1><a href="<%=obj.sections.section.contentSection.titleLink %>" class="project_title"><%=obj.sections.section.contentSection.titleSection %></a></h1>
+				<%}else{ %>
+					<h1><%=obj.sections.section.contentSection.titleSection %></h1>
+				<% } %>
 			</div>
           <div class="row">
 						<div class="col-sm-12 col-sm-offset-0" >

@@ -1,4 +1,3 @@
-<!-- views/template.ejs -->
 <!doctype html>
 <html>
 <head>
@@ -10,20 +9,31 @@
 	<% include ../partials/menu %>
   <div class="container">
       <div class="page-header text-center">
-        <h1><%= obj.sections.section.contentSection.titleSection %></h1>
+				<%if(obj.sections.section.contentSection.titleLink !== ""){ %>
+        <h1><a href="<%=obj.sections.section.contentSection.titleLink %>" class="project_title"><%=obj.sections.section.contentSection.titleSection %></a></h1>
+				<%}else{ %>
+					<h1><%=obj.sections.section.contentSection.titleSection %></h1>
+				<% } %>
 			</div>
           <div class="row">
 						<div class="col-sm-12 col-sm-offset-0" >
 							<div class="well">
-
             	<p id="content">
-									<%- obj.sections.section.contentSection.textSection %>
+								<h3><%=obj.sections.project.header%>:</h3>
+								<%-obj.sections.project.text%>
+								<h3><%=obj.sections.context.header%>:</h3>
+								<%-obj.sections.context.text%>
+								<h3><%=obj.sections.development.header%>:</h3>
+								<%-obj.sections.development.text%>
+								<h3><%=obj.sections.delivery.header%>:</h3>
+								<%-obj.sections.delivery.text%>
+								<h3><%=obj.sections.moreInfos.header%>:</h3>
+								<%-obj.sections.moreInfos.text%>
             	</p>
 							</div>
 						</div>
           </div>
   </div>
-
   <% include ../partials/footer %>
 </body>
 </html>

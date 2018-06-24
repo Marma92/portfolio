@@ -28,7 +28,7 @@
     },
     "moreInfos" : {
       "header" : "Annexe",
-      "text"   : "Plus d'informations sur <a href=\"https://developer.amazonservices.fr/\">Amazon MWS</a>."
+      "text"   : "Plus d'informations sur <a href=\"https://developer.amazonservices.fr/\">Amazon MWS</a>.<br/>Plus de détails sur les activités de <a href = \"http://adexgroup.netisse.eu/\">Adexgroup</a>."
     }
   }
 }

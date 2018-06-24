@@ -12,23 +12,23 @@
     },
     "project":{
       "header" : "Le projet",
-      "text"   : "Développé dans le cadre d’un projet scolaire, en troisième année de Bachelor en Architecture Logicielle, DungeonRPG est un jeu entre RPG (Role Playing Game, ou jeu de rôle) et exploration de donjon.<br/>Sa particularité est sa simplicité d’édition de niveaux, permettant à n’importe qui d’en créer un pour le jouer.<br/>"
+      "text"   : "Adex-Leads est une application web développée à destination des équipes commerciales d'Adexgroup dans le but de disposer d'une meilleure gestion des \"leads\" commerciaux, autrement dit, les pistes commerciales.<br/>"
     },
     "context": {
       "header" : "Contexte",
-      "text"   : "DungeonRPG a été développé pour un projet donné au terme d’un module de cours sur Python.<br/>Le sujet était libre mais avait pour contraintes d’être un projet en Python (3 ou 2) faisant usage de bibliothèques, disposant d’une interface graphique, et présentant une complexité algorithmique à présenter en détail.<br/>"
+      "text"   : "L'application avait été mise en place et développée par l'alternant qui m'avait précédé, la stack étant fortement typée front-end avec un traitement des données en base quasiment intégralement faite dans des grilles Javascript. Cependant, de nombreux bugs ont été décelés après son départ et on m'a chargé de reprendre la solution pour les corriger et y ajouter des fonctionnalités."
     },
     "development" : {
       "header" : "Développement",
-      "text"   : "Pour ce projet, le choix a été fait de n’utiliser aucune bibliothéque offrant un moteur de jeu déjà fait. Le but étant justement d’en produire un, sans préconception ni aide.<br/><a href=\"/technique#algo\">L’algorithme</a> présenté a donc été le moteur d’exploration, autrement dit, le moyen logiciel par lequel le personnage controlé par le joueur se déplace au sein du labyrinthe, et comment interagit-il au sein d’un niveau générisé.<br/>Pour cela, il a d’abord fallu penser ce projet comme une solution logicielle, puis en imaginer les briques à programmer, en faisant un travail <a href=\"/technique#archi\">d’architecture logicielle</a>.<br/>Ensuite, développer ces briques de la manière la plus générique possible en <a href=\"/technique#script\">Python 3</a>, en faisant d’abord des <a href=\"/technique#tests\">tests</a> sur le moteur, en console, de sorte à s’assurer de sa fiabilité et de le perfectionner.<br/>Enfin, y ajouter une interface graphique, à l’aide de la <a href=\"technique#libs\">librairie</a> <a href=\"http://tkinter.fdex.eu/\">tkinter</a>, et y représenter les éléments (murs, coffres, personnage…) par des sprites.<br/>"
+      "text"   : "Cette application web comportait deux points applicatifs forts: une partie serveur en PHP, gérant les différentes requêtes à faire sur la base de donnée MySQL mise en place. Et une seconde partie s'appuyant principalement sur la librairie jQuery <a href=\"https://datatables.net/\">DataTables</a>.<br/>J'ai dû d'abord me documenter sur cette dernière puis investiguer afin de trouver les différentes causes de bugs. Après m'être approprié la solution, j'ai pu ensuite y ajouter les fonctionnalités demandées."
     },
     "delivery" : {
-      "header" : "Rendu",
-      "text"   : "Ce programme a été présenté lors d'une soutenance d'une vingtaine de minutes, au cours de laquelle j'ai dû <a href=\"/transverse#parler\">parler</a> de l'intérêt-même du projet jusqu'aux subtilités de l'algorithme d'exploration utilisé.<br/>"
+      "header" : "Livraison",
+      "text"   : "J'ai profité de cette période de développement sur cette solution pour lui créer un dépôt Git sur lequel j'ai continué à travailler afin d'en historiser les évolutions. J'ai également documenté le code et agrémenté un Wiki le concernant.<br/>La solution a été integrée évolution par évolution sur le serveur de production."
     },
     "moreInfos" : {
       "header" : "Annexe",
-      "text"   : "Lien vers le dépot <a href=\"https://github.com/Marma92/DungeonRPG\">Git</a> du projet."
+      "text"   : "Plus de détails sur les activités de <a href = \"http://adexgroup.netisse.eu/\">Adexgroup</a>."
     }
   }
 }

@@ -12,23 +12,23 @@
     },
     "project":{
       "header" : "Le projet",
-      "text"   : "Développé dans le cadre d’un projet scolaire, en troisième année de Bachelor en Architecture Logicielle, DungeonRPG est un jeu entre RPG (Role Playing Game, ou jeu de rôle) et exploration de donjon.<br/>Sa particularité est sa simplicité d’édition de niveaux, permettant à n’importe qui d’en créer un pour le jouer.<br/>"
+      "text"   : "Développée dans le cadre du développement des activités commerciales d'Adexgroup, durant ma seconde année d'alternance en son sein, Adex-MWS est une solution de gestion d'inventaire et de rafraichissement de stocks automatisée."
     },
     "context": {
       "header" : "Contexte",
-      "text"   : "DungeonRPG a été développé pour un projet donné au terme d’un module de cours sur Python.<br/>Le sujet était libre mais avait pour contraintes d’être un projet en Python (3 ou 2) faisant usage de bibliothèques, disposant d’une interface graphique, et présentant une complexité algorithmique à présenter en détail.<br/>"
+      "text"   : "La direction commerciale de Adexgroup ayant décidé d'ouvrir une boutique Amazon de sorte à élargir l'éventail de clientèle de l'entreprise, j'ai été chargé de développer la structure permettant d'automatiser un maximum les processus derrière le fonctionnement de celle-ci.<br/>Adexgoup ne gérant pas directement de stocks, il est capital de s'encquérir assez souvent de la disponibilité des produits proposés chez leurs fournisseurs. Il faut également faire le tri des produits que l'on vend ou non, parmi ceux proposés par le fournisseur.<br/>Enfin, il faut évidemment intégrer ces informations à la boutique hébergée chez Amazon."
     },
     "development" : {
       "header" : "Développement",
-      "text"   : "Pour ce projet, le choix a été fait de n’utiliser aucune bibliothéque offrant un moteur de jeu déjà fait. Le but étant justement d’en produire un, sans préconception ni aide.<br/><a href=\"/technique#algo\">L’algorithme</a> présenté a donc été le moteur d’exploration, autrement dit, le moyen logiciel par lequel le personnage controlé par le joueur se déplace au sein du labyrinthe, et comment interagit-il au sein d’un niveau générisé.<br/>Pour cela, il a d’abord fallu penser ce projet comme une solution logicielle, puis en imaginer les briques à programmer, en faisant un travail <a href=\"/technique#archi\">d’architecture logicielle</a>.<br/>Ensuite, développer ces briques de la manière la plus générique possible en <a href=\"/technique#script\">Python 3</a>, en faisant d’abord des <a href=\"/technique#tests\">tests</a> sur le moteur, en console, de sorte à s’assurer de sa fiabilité et de le perfectionner.<br/>Enfin, y ajouter une interface graphique, à l’aide de la <a href=\"technique#libs\">librairie</a> <a href=\"http://tkinter.fdex.eu/\">tkinter</a>, et y représenter les éléments (murs, coffres, personnage…) par des sprites.<br/>"
+      "text"   : "L'utilisation de l'application impliquant un personnel non technique, j'ai procédé à la mise en place d'une interface web, permettant de charger des fichiers de stock à un format normé et décidé par avance de concert avec la direction commerciale.<br/>Le fichier chargé nourrit alors une base de données SQL définissant les produits qui seront vendus sur la boutique. Une application PHP va ensuite deux fois par jour rechercher les mises à jour du stock fournisseur, et mettre à jour les disponibilités des produits en base.<br/>Pour finir, un fichier au format accepté par l'API d'Amazon MWS est généré et envoyé en appelant cette dernière, mettant à jour les produits disponibles sur la boutique.<br/>Les technologies choisies dans le cadre de ce projet l'ont été dans le but d'une simplicité de lecture et d'un développement rapide au vu de l'urgence de mettre en ligne l'application. La stack déjà en place utilisant également ces technologies, cela évitait de par ailleurs de multiplier les installations et dispositifs sur les serveurs à disposition."
     },
     "delivery" : {
-      "header" : "Rendu",
-      "text"   : "Ce programme a été présenté lors d'une soutenance d'une vingtaine de minutes, au cours de laquelle j'ai dû <a href=\"/transverse#parler\">parler</a> de l'intérêt-même du projet jusqu'aux subtilités de l'algorithme d'exploration utilisé.<br/>"
+      "header" : "Livraison",
+      "text"   : "J'ai assuré un suivi avec la direction commerciale en tenant en parallèle au courant mon supérieur hiérarchique, directeur technique. J'ai ensuite, de concert avec ce dernier, effectué la mise en production de la solution développée sur les serveurs de l'entreprise.<br/>"
     },
     "moreInfos" : {
       "header" : "Annexe",
-      "text"   : "Lien vers le dépot <a href=\"https://github.com/Marma92/DungeonRPG\">Git</a> du projet."
+      "text"   : "Plus d'informations sur <a href=\"https://developer.amazonservices.fr/\">Amazon MWS</a>."
     }
   }
 }

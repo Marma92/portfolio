@@ -19,9 +19,28 @@
   height: 14em;
 }
 
+#contact-div{
+  text-align: center;
+}
+
+#contact-div a{
+  text-decoration: none;
+}
+
+.project-title{
+  text-align: center;
+}
+
 .projectImg{
-  width: 7em;
-  height: 7em;
+  width: 6em;
+  object-fit: cover
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .schoolImg{

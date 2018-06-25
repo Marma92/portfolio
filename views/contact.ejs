@@ -17,7 +17,7 @@
 						<div class="col-sm-12 col-sm-offset-0" >
 								<center><%- obj.sections.section.contentSection.textSection %></center>
 								<% for (var i = 1; i <= obj.contactInfos.length; i++) { %>
-								<div class="col-sm-3">
+								<div class="col-sm-3" id="contact-div">
 									<span class ="<%= obj.contactInfos[i].contactInfoFAClass %>" aria-hidden="true"></span>
 									<% if (obj.contactInfos[i].isAnEmail === 1){ %>
 										<h4><a href="mailto:<%= obj.contactInfos[i].contactInfoValue %>"><%= obj.contactInfos[i].contactInfoName %></a></h4>

@@ -6,29 +6,29 @@
         "idSection" : "1",
         "contentSection" : {
             "titleSection" : "Bjs-Foot",
-            "titleLink" : "",
+            "titleLink" : "https://github.com/Marma92/bjs-foot",
             "textSection" : ""
         }
     },
     "project":{
       "header" : "Le projet",
-      "text"   : "Développé dans le cadre d’un projet scolaire, en troisième année de Bachelor en Architecture Logicielle, DungeonRPG est un jeu entre RPG (Role Playing Game, ou jeu de rôle) et exploration de donjon.<br/>Sa particularité est sa simplicité d’édition de niveaux, permettant à n’importe qui d’en créer un pour le jouer.<br/>"
+      "text"   : "Développé dans le cadre d’une semaine de cours sur le thème de Babylon.js, Bjs-Foot est une démonstration technique de ce qui peut être fait dans un navigateur web dans le domaine de la 3D."
     },
     "context": {
       "header" : "Contexte",
-      "text"   : "DungeonRPG a été développé pour un projet donné au terme d’un module de cours sur Python.<br/>Le sujet était libre mais avait pour contraintes d’être un projet en Python (3 ou 2) faisant usage de bibliothèques, disposant d’une interface graphique, et présentant une complexité algorithmique à présenter en détail.<br/>"
+      "text"   : "Projet à rendre à terme d'une semaine thématique sur le surjet de la 3D et de Babylon.js, le but était de manipuler des éléments triviaux de la 3D, tels que des objets géometriques en trois dimension, un moteur physique, des textures ou encore la gestion d'impacts."
     },
     "development" : {
       "header" : "Développement",
-      "text"   : "Pour ce projet, le choix a été fait de n’utiliser aucune bibliothéque offrant un moteur de jeu déjà fait. Le but étant justement d’en produire un, sans préconception ni aide.<br/><a href=\"/technique#algo\">L’algorithme</a> présenté a donc été le moteur d’exploration, autrement dit, le moyen logiciel par lequel le personnage controlé par le joueur se déplace au sein du labyrinthe, et comment interagit-il au sein d’un niveau générisé.<br/>Pour cela, il a d’abord fallu penser ce projet comme une solution logicielle, puis en imaginer les briques à programmer, en faisant un travail <a href=\"/technique#archi\">d’architecture logicielle</a>.<br/>Ensuite, développer ces briques de la manière la plus générique possible en <a href=\"/technique#script\">Python 3</a>, en faisant d’abord des <a href=\"/technique#tests\">tests</a> sur le moteur, en console, de sorte à s’assurer de sa fiabilité et de le perfectionner.<br/>Enfin, y ajouter une interface graphique, à l’aide de la <a href=\"technique#libs\">librairie</a> <a href=\"http://tkinter.fdex.eu/\">tkinter</a>, et y représenter les éléments (murs, coffres, personnage…) par des sprites.<br/>"
+      "text"   : "Le développement s'est fait en binôme durant lequel nous avons dû découper les tâches des développements à implémenter, et gérer un dépôt git commun, rendu à la fin du délai."
     },
     "delivery" : {
       "header" : "Rendu",
-      "text"   : "Ce programme a été présenté lors d'une soutenance d'une vingtaine de minutes, au cours de laquelle j'ai dû <a href=\"/transverse#parler\">parler</a> de l'intérêt-même du projet jusqu'aux subtilités de l'algorithme d'exploration utilisé.<br/>"
+      "text"   : "Sous forme d'une archive documentée et d'un lien vers le dépôt Git.<br/>"
     },
     "moreInfos" : {
       "header" : "Annexe",
-      "text"   : "Lien vers le dépot <a href=\"https://github.com/Marma92/DungeonRPG\">Git</a> du projet."
+      "text"   : "Lien vers le dépot <a href=\"https://github.com/Marma92/bjs-foot\">Git</a> du projet."
     }
   }
 }

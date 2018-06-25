@@ -14,59 +14,45 @@
 			</div>
           <div class="row">
 						<div class="col-sm-12 col-sm-offset-0" >
-							<div class="well">
-
             	<p id="content">
 								<%- obj.sections.section.contentSection.textSection %>
 								</section> %>
-								<table class="table table-striped">
+								<table class="table">
 									<% for (var i = 0; i < obj.skillsData.length; i++) { %>
 									<%		if (i % 2 == 0){ %>
 												<tr>
 													<td>  </td>
-													<td>  </td>
-													<td><h4><%- obj.skillsData[i+1].skillName %> :</h4></td>
+													<td> <h4><%- obj.skillsData[i+1].skillName %> :</h4> </td>
+													<td> </td>
 												</tr>
 												<tr>
-											    <td><%- obj.skillsData[i+1].skillImage %></td>
+													<%			if ( obj.skillsData[i+1].skillImage !== ""){  %>
+											    <td><img class="skill-pic" src="<%- obj.skillsData[i+1].skillImage %>" alt="<%- obj.skillsData[i+1].skillName %>"/></td>
+													<% }else{ %>
+													<td> </td>
+													<% }	%>
 													<td><%- obj.skillsData[i+1].skillDescription %></td>
 											    <td><%- obj.skillsData[i+1].skillExample %></td>
 											  </tr>
 								<%		}else{ %>
 												<tr>
+													<td> </td>
 													<td><h4><%- obj.skillsData[i+1].skillName %> :</h4></td>
+													<td> </td>
 												</tr>
 												<tr>
 													<td><%- obj.skillsData[i+1].skillDescription %></td>
 													<td><%- obj.skillsData[i+1].skillExample %></td>
-													<td><%- obj.skillsData[i+1].skillImage %></td>
+													<%			if ( obj.skillsData[i+1].skillImage !== ""){  %>
+											    <td><img class="skill-pic" src="<%- obj.skillsData[i+1].skillImage %>" alt="<%- obj.skillsData[i+1].skillName %>"/></td>
+													<% }else{ %>
+													<td> </td>
+													<% }	%>
 												</tr>
 								<%		} %>
 							<%		} %>
 							</table>
-										- Prise de décisions<br/>
-										- Communication<br/>
-										- Présentations devant divers publics<br/>
-										- Maintien de la cohésion entre équipes<br/>
-										- Patience<br/>
-										- Persévérance<br/>
-										- Sens de l'analyse<br/>
-										- Sens critique<br/>
-										- Être à l'écoute<br/>
-										- <span id="parler">Parler :</span><br/>
-										Je suis un communiquant, que ce soit au sein d’une équipe, pour communiquer une avancée, un état
-										d’esprit ou un ressenti, ou de manière générale pour exprimer, ou expliquer quelque chose, je sais me
-										faire entendre, être clair, descriptif tout en restant concis. <br/>
-										Sachant m’adapter à mon auditoire et ayant une bonne élocution, je suis grâce à mon parler, capable de
-										présenter à un public, faire passer un message tout en étant convaincant pertinent et construit, que ce
-										soit formel ou informel.<br/>
-										Cela m’a permis de par le passé de présenter des projets de développement de par le passé à une
-										clientèle assez huppée, de permettre des conciliations au sein de mes équipes de développement ou de
-										convaincre un supérieur hiérarchique de revenir sur un choix technique.<br/>
-										- Gestion d'un projet et de son budget.<br/>
-            	</p>
 							</div>
-						</div>
           </div>
   </div>
 

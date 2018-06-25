@@ -14,59 +14,46 @@
 			</div>
           <div class="row">
 						<div class="col-sm-12 col-sm-offset-0" >
-							<div class="well">
-
             	<p id="content">
 								<%- obj.sections.section.contentSection.textSection %>
-								<table class="table table-striped">
+								<table class="table table">
 									<% for (var i = 0; i < obj.skillsData.length; i++) { %>
 									<%		if (i % 2 == 0){ %>
 												<tr>
 													<td>  </td>
-													<td>  </td>
 													<td><h4><%- obj.skillsData[i+1].skillName %> :</h4></td>
+													<td>  </td>
 												</tr>
 												<tr>
-											    <td><%- obj.skillsData[i+1].skillImage %></td>
+													<%			if ( obj.skillsData[i+1].skillImage !== ""){  %>
+											    <td><img class="skill-pic" src="<%- obj.skillsData[i+1].skillImage %>" alt="<%- obj.skillsData[i+1].skillName %>"/></td>
+													<% }else{ %>
+													<td> </td>
+													<% }	%>
 													<td><%- obj.skillsData[i+1].skillDescription %></td>
 											    <td><%- obj.skillsData[i+1].skillExample %></td>
 											  </tr>
 								<%		}else{ %>
 												<tr>
+													<td> </td>
 													<td><h4><%- obj.skillsData[i+1].skillName %> :</h4></td>
+													<td>  </td>
 												</tr>
 												<tr>
 													<td><%- obj.skillsData[i+1].skillDescription %></td>
 													<td><%- obj.skillsData[i+1].skillExample %></td>
-													<td><%- obj.skillsData[i+1].skillImage %></td>
+													<%			if ( obj.skillsData[i+1].skillImage !== ""){  %>
+											    <td><img class="skill-pic" src="<%- obj.skillsData[i+1].skillImage %>" alt="<%- obj.skillsData[i+1].skillName %>"/></td>
+													<% }else{ %>
+													<td> </td>
+													<% }	%>
 												</tr>
 								<%		} %>
 							<%		} %>
 							</table>
-								<span id="archi"><h5>Architecture logicielle :</h5></span>
-								Je suis capable d’imaginer une solution logicielle, de lui choisir les technologies adaptées, d’en imaginer le développement et le découper en tâches atomiques, à distribuer et à réaliser.<br/>
-								Exemple : déjà mené des projets de la demande à la mise en production avec succès, notamment chez BNP Paribas Arbitrage où un <a href="/projetspro#bnp">outil de lecture de logs massifs</a> était nécessaire.
-							</br>
-							<h5> Récupération de la demande </h5>
-							<h5> Analyse et création d'un cahier des charges</h5>
-							<span id="algo"><h4> Résolution d'une problèmatique par une solution algorithmique</h4><span>
-							<h5> Manipulation de différentes structures de données et d'algorithmes de tri</h5>
-							<h5> Appropriation d'une technologie/librairie</h5>
-							<h5> Langages natifs (C/C++)</h5>
-							<span id="script"><h5> Langages de scripting (Python, PERL, Bash, Powershell)</h5></span>
-							<h5> Langages lourd (JAVA/JAVAFX)</h5>
-							<h5> Langages Web (PHP, Javascript/Node.js)</h5>
-							<h5> Langages Mobile (Objective-C, JAVA Android)</h5>
-							<h5> Gestion de bases de données SQL (MySQL, PostgreSQL)</h5>
-							<h5> Gestion de bases de données NoSQL (Redis, MongoDB)</h5>
-							<h5> Versionning de projet (Git et équivalents)</h5>
-							<span id="tests"><h5> Mise en place de tests </h5></span>
-							<h5> Mise en production avec integration continue (Jenkins, Codeship).</h5>
-            	</p>
 							</div>
 						</div>
           </div>
-  </div>
 
   <% include ./partials/footer %>
 </body>

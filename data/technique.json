@@ -6,7 +6,7 @@
         "idSection" : "1",
         "contentSection" : {
             "titleSection" : " Compétences Techniques ",
-            "textSection" : " éventuelle introduction "
+            "textSection" : ""
         }
       }
     },
@@ -15,20 +15,74 @@
       "skillName" : "Architecture logicielle",
       "skillDescription" : "Je suis capable d’imaginer une solution logicielle, de lui choisir les technologies adaptées, d’en imaginer le développement et le découper en tâches atomiques, à distribuer et à réaliser.",
       "skillExample" : "déjà mené des projets de la demande à la mise en production avec succès, notamment chez BNP Paribas Arbitrage où un outil de lecture de logs massifs était nécessaire. ",
-      "skillImage" : "https://linkedin.com/user/me"
+      "skillImage" : ""
     },
     "2":{
-      "skillName" : "Résolution d'une problèmatique par une solution algorithmique",
-      "skillDescription" : "En gros du problem solving, quoi. Le coeur de mon métier. Je suis assez bon à ça. Enfin, je crois...",
-      "skillExample" : "Une fois j'ai créé une solution d'affichage bidouillée de ouf, et ça a permis d'afficher ce que tu lis comme ça.",
-      "skillImage" : "https://linkedin.com/user/me"
+      "skillName" : "Traduction de la demande",
+      "skillDescription" : "",
+      "skillExample" : ".",
+      "skillImage" : ""
     },
     "3":{
-      "skillName" : "Résolution d'une problèmatique par une solution algorithmique",
-      "skillDescription" : "En gros du problem solving, quoi. Le coeur de mon métier. Je suis assez bon à ça. Enfin, je crois...",
-      "skillExample" : "Une fois j'ai créé une solution d'affichage bidouillée de ouf, et ça a permis d'afficher ce que tu lis comme ça.",
-      "skillImage" : "https://linkedin.com/user/me"
+      "skillName" : "Résolution de problématiques",
+      "skillDescription" : "Ou problem solving",
+      "skillExample" : "",
+      "skillImage" : ""
     },
-    "length": 3
+    "4":{
+      "skillName" : "Connaissances algorithmiques",
+      "skillDescription" : "Manipulation de différentes structures de données et d'algorithmes de tri.",
+      "skillExample" : "",
+      "skillImage" : ""
+    },
+    "5":{
+      "skillName" : "Autodidacte",
+      "skillDescription" : "Appropriation d'une technologie/librairie.",
+      "skillExample" : ".",
+      "skillImage" : ""
+    },
+    "6":{
+      "skillName" : "Langages compilés",
+      "skillDescription" : "(C/C++)",
+      "skillExample" : "",
+      "skillImage" : ""
+    },
+    "7":{
+      "skillName" : "Langages de scripting ()",
+      "skillDescription" : "Python, PERL, Bash, Powershell",
+      "skillExample" : "",
+      "skillImage" : ""
+    },
+    "8":{
+      "skillName" : "Langages à paradigme objet",
+      "skillDescription" : "Java/JavaFX, C# ",
+      "skillExample" : ".",
+      "skillImage" : ""
+    },
+    "9":{
+      "skillName" : "Développement Web",
+      "skillDescription" : "PHP, Javascript/Node.js",
+      "skillExample" : "",
+      "skillImage" : ""
+    },
+    "10":{
+      "skillName" : "Développement Mobile",
+      "skillDescription" : "Objective-C, JAVA Android, Tizen",
+      "skillExample" : "",
+      "skillImage" : ""
+    },
+    "10":{
+      "skillName" : "Bases de données",
+      "skillDescription" : "Relationnelles: MySQL, PostgreSQL, ou non : Redis, MongoDB .",
+      "skillExample" : "",
+      "skillImage" : ""
+    },
+    "10":{
+      "skillName" : "Processus projet",
+      "skillDescription" : " Versionning sous Git et équivalents, intégration continue :Jenkins, Codeship ",
+      "skillExample" : "",
+      "skillImage" : ""
+    },
+    "length": 10
   }
 }

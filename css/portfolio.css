@@ -27,6 +27,11 @@
   text-decoration: none;
 }
 
+.skill-pic{
+  height: 9em;
+  object-fit: cover
+}
+
 .project-title{
   text-align: center;
 }

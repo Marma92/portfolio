@@ -55,18 +55,12 @@
           "projectPicture" : ""
         },
         "2":{
-          "projectName" : "My (cheap) Own Cloud",
-          "projectLink" : "/realisations/myowncloud",
-          "projectDescription" : "Que faire quand on doute des prestataires cloud ? Mettre en place le sien, pardi!",
-          "projectPicture" : ""
-        },
-        "3":{
           "projectName" : "Portfolio-CMS",
           "projectLink" : "/realisations/cms",
           "projectDescription" : "Un outil permettant de mettre en place un portfolio professionnel rapidement",
           "projectPicture" : ""
         },
-        "length" : 3
+        "length" : 2
       },
     "length": 2
     }

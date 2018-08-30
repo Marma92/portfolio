@@ -12,23 +12,23 @@
     },
     "project":{
       "header" : "Le projet",
-      "text"   : "Développé dans le cadre d’un projet scolaire, en troisième année de Bachelor en Architecture Logicielle, DungeonRPG est un jeu entre RPG (Role Playing Game, ou jeu de rôle) et exploration de donjon.<br/>Sa particularité est sa simplicité d’édition de niveaux, permettant à n’importe qui d’en créer un pour le jouer.<br/>"
+      "text"   : "Portfolio CMS est un outil permettant la mise en place et l'édition d'un portfolio professionnel.<br/>"
     },
     "context": {
       "header" : "Contexte",
-      "text"   : "DungeonRPG a été développé pour un projet donné au terme d’un module de cours sur Python.<br/>Le sujet était libre mais avait pour contraintes d’être un projet en Python (3 ou 2) faisant usage de bibliothèques, disposant d’une interface graphique, et présentant une complexité algorithmique à présenter en détail.<br/>"
+      "text"   : "Dans le cursus de l'In'tech, école où j'étudie l'Ingénierie Logicielle, la présentation d'un portfolio professionnel est un passage obligatoire au décrochage d'un diplôme.<br/>N'ayant pas trouvé d'outil me convenant pour sa mise en place, j'ai choisi d'en développer un.<br/> Je projette également de continuer à le faire évoluer et le mettre à disposition des futures promotion d'étudiants de l'In'tech."
     },
     "development" : {
       "header" : "Développement",
-      "text"   : "Pour ce projet, le choix a été fait de n’utiliser aucune bibliothéque offrant un moteur de jeu déjà fait. Le but étant justement d’en produire un, sans préconception ni aide.<br/><a href=\"/technique#algo\">L’algorithme</a> présenté a donc été le moteur d’exploration, autrement dit, le moyen logiciel par lequel le personnage controlé par le joueur se déplace au sein du labyrinthe, et comment interagit-il au sein d’un niveau générisé.<br/>Pour cela, il a d’abord fallu penser ce projet comme une solution logicielle, puis en imaginer les briques à programmer, en faisant un travail <a href=\"/technique#archi\">d’architecture logicielle</a>.<br/>Ensuite, développer ces briques de la manière la plus générique possible en <a href=\"/technique#script\">Python 3</a>, en faisant d’abord des <a href=\"/technique#tests\">tests</a> sur le moteur, en console, de sorte à s’assurer de sa fiabilité et de le perfectionner.<br/>Enfin, y ajouter une interface graphique, à l’aide de la <a href=\"technique#libs\">librairie</a> <a href=\"http://tkinter.fdex.eu/\">tkinter</a>, et y représenter les éléments (murs, coffres, personnage…) par des sprites.<br/>"
+      "text"   : "Le serveur est développé en Node.js, et charge la plupart des données depuis des fichiers JSON générés depuis un éditeur par l'auteur du portfolio.<br/> Une solution de blogging devrait également voir le jour plus tard.<br/>L'aspect visuel est géré par des vues \"templatées\" grâce à ejs, et utilisant des éléments Bootstrap.<br/>"
     },
     "delivery" : {
-      "header" : "Rendu",
-      "text"   : "Ce programme a été présenté lors d'une soutenance d'une vingtaine de minutes, au cours de laquelle j'ai dû <a href=\"/transverse#parler\">parler</a> de l'intérêt-même du projet jusqu'aux subtilités de l'algorithme d'exploration utilisé.<br/>"
+      "header" : "Production",
+      "text"   : "Cette solution est encore loin d'être finie et continue d'évoluer. Il est possible de suivre son évolution sur GitHub, où son dépot et public et sous licence MIT.<br/>C'est également l'outil qui permet le bon fonctionnement de ce portfolio. "
     },
     "moreInfos" : {
       "header" : "Annexe",
-      "text"   : "Lien vers le dépot <a href=\"https://github.com/Marma92/DungeonRPG\">Git</a> du projet."
+      "text"   : "Lien vers le dépot <a href=\"https://github.com/Marma92/portfolio\">Git</a> du projet."
     }
   }
 }

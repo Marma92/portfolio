@@ -12,7 +12,7 @@
     },
     "project":{
       "header" : "Le projet",
-      "text"   : "Développé dans le cadre d’un projet scolaire, en troisième année de Bachelor en Architecture Logicielle, DungeonRPG est un jeu entre RPG (Role Playing Game, ou jeu de rôle) et exploration de donjon.<br/>Sa particularité est sa simplicité d’édition de niveaux, permettant à n’importe qui d’en créer un pour le jouer.<br/>"
+      "text"   : ".<br/>"
     },
     "context": {
       "header" : "Contexte",

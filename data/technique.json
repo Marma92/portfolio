@@ -14,7 +14,7 @@
     "1":{
       "skillName" : "Architecture logicielle",
       "skillDescription" : "Je suis capable d’imaginer une solution logicielle, de lui choisir les technologies adaptées, d’en imaginer le développement et le découper en tâches atomiques, à distribuer et à réaliser.",
-      "skillExample" : "déjà mené des projets de la demande à la mise en production avec succès, notamment chez BNP Paribas Arbitrage où un outil de lecture de logs massifs était nécessaire. ",
+      "skillExample" : "Ainsi, j'ai déjà mené des projets de la demande à la mise en production avec succès, notamment chez BNP Paribas Arbitrage où un outil de lecture de logs massifs était nécessaire. ",
       "skillImage" : ""
     },
     "2":{
@@ -71,18 +71,18 @@
       "skillExample" : "",
       "skillImage" : ""
     },
-    "10":{
+    "11":{
       "skillName" : "Bases de données",
       "skillDescription" : "Relationnelles: MySQL, PostgreSQL, ou non : Redis, MongoDB .",
       "skillExample" : "",
       "skillImage" : ""
     },
-    "10":{
+    "12":{
       "skillName" : "Processus projet",
       "skillDescription" : " Versionning sous Git et équivalents, intégration continue :Jenkins, Codeship ",
       "skillExample" : "",
       "skillImage" : ""
     },
-    "length": 10
+    "length": 12
   }
 }

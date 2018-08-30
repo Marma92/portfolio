@@ -12,10 +12,10 @@
     },
   "skillsData":{
       "1":{
-        "skillName" : "Prise de décisions",
-        "skillDescription" : "",
-        "skillExample" : "",
-        "skillImage" : ""
+        "skillName" : "Curiosité",
+        "skillDescription" : "Naturellement curieux, j'aime étudier et apprendre en profondeur un sujet que j'explore. Dans mon domaine, cela m'amène fréquemment à découvrir, essayer ou même maîtriser de nouvelles technologies.",
+        "skillExample" : "Dans mon domaine professionnel, lorsque Node.js a commencé à devenir populaire, je ne connaissais même pas encore Javascript, sur lequel il se base. J'ai ainsi appris les deux par moi-même.<br/> Dans la vie de tous les jours, il y a le spatial, qui me passionne depuis l'enfance. Internet étant une source inépuisable et fantastique d'informations, je me perds fréquemment dans l'histoire de la conquête spatiale ou dans ses différentes découvertes. <br/>",
+        "skillImage" : "/public/imgs/curiosity.jpg"
       },
       "2":{
         "skillName" : "Communication",
@@ -24,27 +24,27 @@
         "skillImage" : "/public/imgs/communication.jpg"
       },
       "3":{
-        "skillName" : "Être à l'écoute",
-        "skillDescription" : "Je suis capable d’imaginer une solution logicielle, de lui choisir les technologies adaptées, d’en imaginer le développement et le découper en tâches atomiques, à distribuer et à réaliser.",
-        "skillExample" : "déjà mené des projets de la demande à la mise en production avec succès, notamment chez BNP Paribas Arbitrage où un outil de lecture de logs massifs était nécessaire. ",
-        "skillImage" : ""
+        "skillName" : "Sens de l'analyse",
+        "skillDescription" : "Je suis capable d'analyser un projet ou une demande, en gardant un recul suffisant à imaginer une solution logicielle, de lui choisir les technologies adaptées, d’en imaginer le développement et le découper en tâches atomiques, à distribuer et à réaliser.",
+        "skillExample" : "Aussi, j'ai déjà mené des projets de la demande à la mise en production avec succès, notamment chez BNP Paribas Arbitrage où un outil de lecture de logs massifs était nécessaire. ",
+        "skillImage" : "/public/imgs/analysis.jpg"
       },
         "4":{
-          "skillName" : "Maintien de la cohésion",
-          "skillDescription" : "",
-          "skillExample" : "",
-          "skillImage" : ""
+          "skillName" : "Persévérance",
+          "skillDescription" : "J'ai le goût du travail fini, quitte à me dépasser ou à m'accrocher à un sujet. Je suis déterminé et n'abandonne pas, quels que soient les déboires. Mes erreurs sont ainsi des leçons dont j'apprends, et j'aime entreprendre et avancer malgré les obstacles, ce qui est parfois même communicatif.",
+          "skillExample" : "Ainsi, lors de mon stage chez BNP Paribas, un plan de réorganisation a annulé mon renouvellement en tant qu'alternant et désorganisé les équipes au sein desquelles je travaillais. L'aide dont je bénéficiais sur le projet que l'on m'avait confié fut également réduite. J'ai mis un point d'honneur à aller jusqu'à la mise en production dudit projet avant mon départ.",
+          "skillImage" : "/public/imgs/perseverance.jpg"
         },
         "5":{
-          "skillName" : "Persévérance",
-          "skillDescription" : "",
-          "skillExample" : "",
-          "skillImage" : ""
+          "skillName" : "Sociabilité",
+          "skillDescription" : "Ayant un bon contact humain, et fréquentant des milieux très divers, je n'ai pas de difficulté à m'intégrer dans un groupe de personne, même s'il m'est totalement inconnu.",
+          "skillExample" : "J'ai récemment commencé à fréquenter un cercle de férus de spatial, en grande partie composé de professionnels. N'étant qu'un simple initié, je n'ai pas eu pour autant du mal à m'associer au groupe.",
+          "skillImage" : "/public/imgs/sociable.jpg"
         },
         "6":{
-          "skillName" : "Sens de l'analyse",
+          "skillName" : "Langues Parlées",
           "skillDescription" : "",
-          "skillExample" : "",
+          "skillExample" : "<ul><li>Français (langue maternelle)</li><li>Anglais (courant, meilleur TOEIC : 900)</li><li>Hébreu Moderne (courant)</li></ul>",
           "skillImage" : ""
         },
     "length": 6

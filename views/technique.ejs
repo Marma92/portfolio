@@ -18,7 +18,6 @@
 								<%- obj.sections.section.contentSection.textSection %>
 								<table class="table table">
 									<% for (var i = 0; i < obj.skillsData.length; i++) { %>
-									<%		if (i % 2 == 0){ %>
 												<tr>
 													<td>  </td>
 													<td><h4><%- obj.skillsData[i+1].skillName %> :</h4></td>
@@ -33,22 +32,6 @@
 													<td><%- obj.skillsData[i+1].skillDescription %></td>
 											    <td><%- obj.skillsData[i+1].skillExample %></td>
 											  </tr>
-								<%		}else{ %>
-												<tr>
-													<td> </td>
-													<td><h4><%- obj.skillsData[i+1].skillName %> :</h4></td>
-													<td>  </td>
-												</tr>
-												<tr>
-													<td><%- obj.skillsData[i+1].skillDescription %></td>
-													<td><%- obj.skillsData[i+1].skillExample %></td>
-													<%			if ( obj.skillsData[i+1].skillImage !== ""){  %>
-											    <td><center><img class="skill-pic" src="<%- obj.skillsData[i+1].skillImage %>" alt="<%- obj.skillsData[i+1].skillName %>"/></center></td>
-													<% }else{ %>
-													<td> </td>
-													<% }	%>
-												</tr>
-								<%		} %>
 							<%		} %>
 							</table>
 							</div>

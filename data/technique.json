@@ -12,77 +12,65 @@
     },
   "skillsData":{
     "1":{
-      "skillName" : "Architecture logicielle",
-      "skillDescription" : "Je suis capable d’imaginer une solution logicielle, de lui choisir les technologies adaptées, d’en imaginer le développement et le découper en tâches atomiques, à distribuer et à réaliser.",
-      "skillExample" : "Ainsi, j'ai déjà mené des projets de la demande à la mise en production avec succès, notamment chez BNP Paribas Arbitrage où un outil de lecture de logs massifs était nécessaire. ",
+      "skillName" : "Traduction de demande / Résolution de problématiques",
+      "skillDescription" : "A partir d'une demande, je suis capable d’imaginer une solution logicielle, d'en choisir les technologies adaptées, et d'imaginer le développement découpé en tâches atomiques, à distribuer et à réaliser.",
+      "skillExample" : "Ainsi, j'ai déjà mené des projets de la demande à la mise en production avec succès, notamment chez BNP Paribas Arbitrage où un outil de lecture de logs massifs était nécessaire.",
       "skillImage" : ""
     },
     "2":{
-      "skillName" : "Traduction de la demande",
-      "skillDescription" : "",
-      "skillExample" : ".",
+      "skillName" : "Connaissances algorithmiques",
+      "skillDescription" : "Lors de mon parcours, j'ai appris la manipulation de différentes structures de données et d'algorithmes de tri ainsi que leurs cas d'application.",
+      "skillExample" : "",
       "skillImage" : ""
     },
     "3":{
-      "skillName" : "Résolution de problématiques",
-      "skillDescription" : "Ou problem solving",
-      "skillExample" : "",
+      "skillName" : "Autodidacte",
+      "skillDescription" : "Je sais m'approprier une technologie par moi-même, me renseigner par mes propres moyens et me former à l'aide de documentations, manuels, tutoriels et autres.",
+      "skillExample" : "Lors de la mise en place du projet <a href=\"/realisations/forcelogs\">Force Logs Reader</a> durant mon stage chez BNP Paribas Arbitrage, il m'a été demandé de mettre en place une interface graphique en JavaFX, que je n'avais encore jamais utilisé, je me suis formé seul et ai développé cette interface comme demandé.",
       "skillImage" : ""
     },
     "4":{
-      "skillName" : "Connaissances algorithmiques",
-      "skillDescription" : "Manipulation de différentes structures de données et d'algorithmes de tri.",
-      "skillExample" : "",
+      "skillName" : "Langages compilés",
+      "skillDescription" : "C/C++ : <i>Niveau Scolaire.</i><br/>  ",
+      "skillExample" : "Principalement le fruit d'exercices sur différentes structures de données (liste chainée, liste contigue, hashmaps...) ainsi que sur des algorithmes de tri (tri rapide, à bulle, arborescent, fusion, par tas... ).<br/>Egalement sur des exercices de Théorie des Langages tels que le pseudo-Langage <a href \"/realisations/fargex\">FARGEX</a>.",
       "skillImage" : ""
     },
     "5":{
-      "skillName" : "Autodidacte",
-      "skillDescription" : "Appropriation d'une technologie/librairie.",
-      "skillExample" : ".",
+      "skillName" : "Langages de scripting",
+      "skillDescription" : "Python: <i>Niveau Avancé</i><br/> PERL: <i>Niveau Moyen</i><br/> Bash: <i>Niveau Avancé</i><br/> Powershell: <i>Niveau Moyen</i><br/>",
+      "skillExample" : "Utilisation de Python et de librairies pour le développement d'un jeu 2D appelé <a href=\"/realisations/dungeonrpg\">DungeonRPG</a> présenté en troisième année de Bachelor.<br/> Utilisation de PERL dans le cadre de la <a href \"/realisations/rationalisation\">normalisation des données</a> au sein de Securiview et d'optimisations du projet <a href \"/realisations/adexbox\">AdexBox</a> chez Adexgroup.<br/>Utilisation de bash pour différentes <a href \"/realisations/automatisation\">automatisations</a> et les boitiers de l'<a href \"/realisations/adexbox\">AdexBox</a> ou encore le script <a href \"/realisations/nodesource\">Node Source Improved.</a>",
       "skillImage" : ""
     },
     "6":{
-      "skillName" : "Langages compilés",
-      "skillDescription" : "(C/C++)",
+      "skillName" : "Langages à paradigme objet",
+      "skillDescription" : "Java/JavaFX: <i>Niveau Avancé</i> <br/>C#: <i>Niveau Scolaire</i> ",
       "skillExample" : "",
       "skillImage" : ""
     },
     "7":{
-      "skillName" : "Langages de scripting ()",
-      "skillDescription" : "Python, PERL, Bash, Powershell",
+      "skillName" : "Développement Web",
+      "skillDescription" : "PHP: <i>Niveau Moyen</i><br/> Javascript/Node.js: <i>Niveau Avancé</i>",
       "skillExample" : "",
       "skillImage" : ""
     },
     "8":{
-      "skillName" : "Langages à paradigme objet",
-      "skillDescription" : "Java/JavaFX, C# ",
-      "skillExample" : ".",
+      "skillName" : "Développement Mobile",
+      "skillDescription" : "Objective-C: <i>Niveau Moyen</i><br/> JAVA Android: <i>Rudiments</i><br/> Kotlin: <i>Rudiments</i><br/>",
+      "skillExample" : "",
       "skillImage" : ""
     },
     "9":{
-      "skillName" : "Développement Web",
-      "skillDescription" : "PHP, Javascript/Node.js",
+      "skillName" : "Bases de données",
+      "skillDescription" : "<b>Relationnelles:</b><br/> MySQL: <i>Niveau Moyen</i><br/> PostgreSQL: <i>Rudiments</i> <br/> <b>Non Relationnelles:</b><br/> Redis: <i>Rudiments</i> <br/> MongoDB: <i>Rudiments</i> <br/>",
       "skillExample" : "",
       "skillImage" : ""
     },
     "10":{
-      "skillName" : "Développement Mobile",
-      "skillDescription" : "Objective-C, JAVA Android, Tizen",
-      "skillExample" : "",
-      "skillImage" : ""
-    },
-    "11":{
-      "skillName" : "Bases de données",
-      "skillDescription" : "Relationnelles: MySQL, PostgreSQL, ou non : Redis, MongoDB .",
-      "skillExample" : "",
-      "skillImage" : ""
-    },
-    "12":{
       "skillName" : "Processus projet",
-      "skillDescription" : " Versionning sous Git et équivalents, intégration continue :Jenkins, Codeship ",
+      "skillDescription" : " Versionning sous Git et équivalents<br/> Intégration continue: Jenkins, Codeship ",
       "skillExample" : "",
       "skillImage" : ""
     },
-    "length": 12
+    "length": 10
   }
 }

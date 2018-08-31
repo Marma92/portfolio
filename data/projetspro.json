@@ -65,7 +65,7 @@
           "projectLink" : "/realisations/inmykitchen",
           "projectDescription" : "\"Qu'est ce que je peux cuisiner ce soir ?\" La réponse sur vôtre iPhone.",
           "projectCompany" : "Crazy Unicorn (Pour Raise Up! Films)",
-          "projectPicture" : ""
+          "projectPicture" : "public/imgs/imk.png"
         },
         "3":{
           "projectName" : "Automatisations",

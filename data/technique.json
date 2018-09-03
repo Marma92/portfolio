@@ -15,61 +15,61 @@
       "skillName" : "Traduction de demande / Résolution de problématiques",
       "skillDescription" : "A partir d'une demande, je suis capable d’imaginer une solution logicielle, d'en choisir les technologies adaptées, et d'imaginer le développement découpé en tâches atomiques, à distribuer et à réaliser.",
       "skillExample" : "Ainsi, j'ai déjà mené des projets de la demande à la mise en production avec succès, notamment chez BNP Paribas Arbitrage où un outil de lecture de logs massifs était nécessaire.",
-      "skillImage" : ""
+      "skillImage" : "public/imgs/problemsolv.png"
     },
     "2":{
       "skillName" : "Connaissances algorithmiques",
       "skillDescription" : "Lors de mon parcours, j'ai appris la manipulation de différentes structures de données et d'algorithmes de tri ainsi que leurs cas d'application.",
       "skillExample" : "Lors de mon bachelor à l'ESGI, j'ai suivi des cours d'Algorithmie, mais également de Théorie des Langages. Plus tard, en Master à l'In'Tech, j'ai également pu étudier la programmation fonctionnelle, ainsi que de nombreuses problématiques d'Architecture Logicielle.",
-      "skillImage" : ""
+      "skillImage" : "public/imgs/algo.jpg"
     },
     "3":{
       "skillName" : "Autodidaxie",
       "skillDescription" : "Je sais m'approprier une technologie par moi-même, me renseigner par mes propres moyens et me former à l'aide de documentations, manuels, tutoriels et autres.",
       "skillExample" : "Lors de la mise en place du projet <a href=\"/realisations/forcelogs\">Force Logs Reader</a> durant mon stage chez BNP Paribas Arbitrage, il m'a été demandé de mettre en place une interface graphique en JavaFX, que je n'avais encore jamais utilisé, je me suis formé seul et ai développé cette interface comme demandé.<br/>De même, dans le cadre du développement d'une solution de <a href=\"/realisations/rationalisation\">rationalisation de données</a> au sein de Securiview, il m'a été demandé de développer en <a href=\"https://www.perl.org/about.html\">PERL, un langage qui m'était alors totalement inconnu et que je me suis approprié pour l'occasion.",
-      "skillImage" : ""
+      "skillImage" : "public/imgs/reading.png"
     },
     "4":{
       "skillName" : "Langages compilés",
       "skillDescription" : "C/C++ : <i>Niveau Scolaire.</i><br/>  ",
       "skillExample" : "Principalement le fruit d'exercices sur différentes structures de données (liste chainée, liste contigue, hashmaps...) ainsi que sur des algorithmes de tri (tri rapide, à bulle, arborescent, fusion, par tas... ).<br/>Egalement sur des exercices de Théorie des Langages tels que le pseudo-Langage <a href \"/realisations/fargex\">FARGEX</a>.",
-      "skillImage" : ""
+      "skillImage" : "public/imgs/c.png"
     },
     "5":{
       "skillName" : "Langages de scripting",
       "skillDescription" : "Python: <i>Niveau Avancé</i><br/> PERL: <i>Niveau Moyen</i><br/> Bash: <i>Niveau Avancé</i><br/> Powershell: <i>Niveau Moyen</i><br/>",
       "skillExample" : "Utilisation de Python et de librairies pour le développement d'un jeu 2D appelé <a href=\"/realisations/dungeonrpg\">DungeonRPG</a> présenté en troisième année de Bachelor.<br/> Utilisation de PERL dans le cadre de la <a href \"/realisations/rationalisation\">normalisation des données</a> au sein de Securiview et d'optimisations du projet <a href \"/realisations/adexbox\">AdexBox</a> chez Adexgroup.<br/>Utilisation de bash pour différentes <a href \"/realisations/automatisation\">automatisations</a> et les boitiers de l'<a href \"/realisations/adexbox\">AdexBox</a> ou encore le script <a href \"/realisations/nodesource\">Node Source Improved.</a>",
-      "skillImage" : ""
+      "skillImage" : "public/imgs/py.png"
     },
     "6":{
       "skillName" : "Langages à paradigme objet",
       "skillDescription" : "Java/JavaFX: <i>Niveau Avancé</i> <br/>C#: <i>Niveau Scolaire</i> ",
       "skillExample" : "Utilisation de Java et de JavaFX pour mon projet scolaire de 3ème année de Bachelor à l'ESGI : <a href \"/realisations/jack\">JACK</a>, un système de cartographie 3D.<br/>Utilisation de C# dans différents exercices et projets scolaires durant mes deux années de Master à l'In'tech.",
-      "skillImage" : ""
+      "skillImage" : "public/imgs/java.png"
     },
     "7":{
       "skillName" : "Développement Web",
       "skillDescription" : "Javascript/Node.js: <i>Niveau Avancé</i><br/>PHP: <i>Niveau Moyen</i>",
       "skillExample" : "J'ai utilisé Node.js dans le cadre de plusieurs de mes projets personnels, tels que <a href \"/realisations/portfolio\">le Portfolio-CMS</a> ou <a href \"/realisations/petbook\">petbook</a>, et professionnels comme la partie API de l'Application embarquée Xerox du projet <a href \"/realisations/adexbox\">Adexbox</a>.<br/>J'ai également utilisé PHP dans le cadre de quelques exercices scolaires et entre autres lors du développement du projet <a href \"/realisations/adexmws\">Adex-MWS</a>.",
-      "skillImage" : ""
+      "skillImage" : "public/imgs/node.png"
     },
     "8":{
       "skillName" : "Développement Mobile",
       "skillDescription" : "Objective-C: <i>Niveau Moyen</i><br/> JAVA Android: <i>Rudiments</i><br/> Kotlin: <i>Rudiments</i><br/>",
       "skillExample" : "J'ai appris et utilisé Objective-C dans le cadre du développement de l'application <a href \"/realisations/inmykitchen\">In My Kitchen</a><br/>J'ai assisté à des semaines thématiques dédiées à Java Android puis à Kotlin dans le cadre de mon Master en Ingénierie Logicielle à l'In'Tech",
-      "skillImage" : ""
+      "skillImage" : "public/imgs/mobile.png"
     },
     "9":{
       "skillName" : "Bases de données",
       "skillDescription" : "<b>Relationnelles:</b><br/> MySQL: <i>Niveau Moyen</i><br/> PostgreSQL: <i>Rudiments</i> <br/> <b>Non Relationnelles:</b><br/> Redis: <i>Rudiments</i> <br/> MongoDB: <i>Rudiments</i> <br/>",
       "skillExample" : "J'ai utilisé des bases de données dans le cadre de différents projets personnels et professionnels. Cependant jamais de manière avancée, et n'ait que des connaissances purement théoriques en la matière, provenant des cours auxquels j'ai pu assister durant mon parcours, impliquant parfois l'usage de méthodes d'analyse telles que UML et MERISE.",
-      "skillImage" : ""
+      "skillImage" : "public/imgs/db.png"
     },
     "10":{
       "skillName" : "Processus projet",
       "skillDescription" : " Versionning sous Git et équivalents<br/> Intégration continue: Jenkins, Codeship ",
       "skillExample" : "Que j'ai été dans une équipe ou seul, je me suis toujours poussé à utiliser Git pour historiser mes développements. Il m'est également arrivé d'utiliser un processus de mise en production complet, lors de mon stage à la BNP Paribas Arbitrage, dans le cadre du développement du <a href \"/realisations/forcelogs\">Force Logs Reader</a>, utilisant entre autres Git pour le versionning et Jenkins pour la livraison continue.",
-      "skillImage" : ""
+      "skillImage" : "public/imgs/process.png"
     },
     "length": 10
   }

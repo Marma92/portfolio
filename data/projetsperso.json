@@ -24,25 +24,25 @@
           "projectName" : "Bjs-foot",
           "projectLink" : "/realisations/bjsfoot",
           "projectDescription" : "Tirer dans un ballon... en trois dimension, dans un navigateur.",
-          "projectPicture" : ""
+          "projectPicture" : "public/imgs/foot.jpg"
         },
         "3":{
           "projectName" : "Petbook",
           "projectLink" : "/realisations/petbook",
           "projectDescription" : "Mon chat aussi a le droit d'avoir son réseau social",
-          "projectPicture" : ""
+          "projectPicture" : "public/imgs/petbook.png"
         },
         "4":{
           "projectName" : "FARGEX",
           "projectLink" : "/realisations/fargex",
           "projectDescription" : "Un pseudo-langage, développé à l'aide de YACC et Lex",
-          "projectPicture" : ""
+          "projectPicture" : "public/imgs/FARGEX.png"
         },
         "5":{
           "projectName" : "JACK",
           "projectLink" : "/realisations/jack",
           "projectDescription" : "Un système de cartographie 3D, sujet du projet annuel présenté pour la validation de mon Bachelor",
-          "projectPicture" : ""
+          "projectPicture" : "public/imgs/JACK.png"
         },
         "length" : 5
       },
@@ -52,13 +52,13 @@
           "projectName" : "Node Source Improved ",
           "projectLink" : "/realisations/nodesource",
           "projectDescription" : "Déployer un serveur Node.js sous Linux n'a jamais été aussi simple",
-          "projectPicture" : ""
+          "projectPicture" : "public/imgs/node.png"
         },
         "2":{
           "projectName" : "Portfolio-CMS",
           "projectLink" : "/realisations/cms",
           "projectDescription" : "Un outil permettant de mettre en place un portfolio professionnel rapidement",
-          "projectPicture" : ""
+          "projectPicture" : "public/imgs/portfolio.png"
         },
         "length" : 2
       },

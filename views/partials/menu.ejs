@@ -10,15 +10,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-              <div id="homediv">
-                <a href='/'><i class="fa fa-home fa-3x fa-fw"></i></a>
-              </div>
             </div>
 
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                    <a href="/"><i class="fa fa-home fa-fw"></i> <br/>Accueil</a>
+                  </li>
                     <li class="dropdown">
-                      <a href="/experience"> Expérience </a>
+                      <a href="/experience"> Expérience<br/> Professionnelle</a>
                     </li>
                     <li class="dropdown">
                       <a href="/etudes" > Etudes <b></b></a>
@@ -45,14 +45,14 @@
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
-            <div>
-
-            </div>
         </nav>
 </div>
 
 <style>
 
+.navbar-collapse{
+      background-color: #e8dcdc;
+}
 
 .dropdown-menu > li.kopie > a {
    padding-left:5px;
@@ -89,7 +89,6 @@
 }
 
 #homediv{
-  background-color: #111111;
   padding-top: 0.4em;
   padding-bottom: 0.3em;
 }
@@ -137,8 +136,6 @@
   }
 
 }
-
-
 
 @media (min-width: 768px) {
  ul.nav li:hover > ul.dropdown-menu {

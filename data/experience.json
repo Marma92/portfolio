@@ -1,11 +1,11 @@
 {
-  "pageTitle" : "Expérience",
+  "pageTitle" : "Expérience Professionnelle",
   "pageType"  : "histogram",
   "sections" :{
     "section" : {
         "idSection" : "1",
         "contentSection" : {
-            "titleSection" : " Expérience ",
+            "titleSection" : "Expérience Professionnelle",
             "textSection" : ""
         }
     }

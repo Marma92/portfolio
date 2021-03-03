@@ -23,6 +23,9 @@
 							<h4 class="project-title"><a href="<%= obj.projects.categories[h][i].projectLink %>"><%= obj.projects.categories[h][i].projectName %></a></h4>
 							<p><%= obj.projects.categories[h][i].projectDescription %></p>
 						</div>
+							<% if (i % 4 == 0){%>
+								</div> <div class="row">
+							<% } %>
 						<% } %>
 					<% } %>
 			</div>

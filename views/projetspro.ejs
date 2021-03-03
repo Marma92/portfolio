@@ -24,6 +24,9 @@
 							<p><%= obj.projects.categories[h][i].projectDescription %><br/><br/>
 							<i><%= obj.projects.categories[h][i].projectCompany %></i></p>
 						</div>
+							<% if (i % 4 == 0){%>
+								</div> <div class="row">
+							<% } %>
 						<% } %>
 					<% } %>
 			</div>

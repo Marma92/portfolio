@@ -10,7 +10,7 @@ var fs = require('fs');
         }
         var obj = JSON.parse(data);
 				console.log(obj.pageTitle);
-        res.render('realisations/adexbox.ejs', {obj : obj}); // load the adexbox.ejs file
+        res.render('realisation.ejs', {obj : obj}); // load the adexbox.ejs file
       });
 	});
 }

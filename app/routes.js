@@ -1,14 +1,12 @@
 module.exports = function(app){
 	require("./index")(app);
 	require("./experience")(app);
-	require("./realisations")(app);
 	require("./etudes")(app);
 	require("./contact")(app);
 	require("./competences")(app);
 	require("./technique")(app);
 	require("./transverse")(app);
-	require("./projetspro")(app);
-	require("./projetsperso")(app);
+	require("./projets")(app);
 	require("./template")(app);
 	require("./dungeonrpg")(app);
 	require("./adexbox")(app);

@@ -5,8 +5,8 @@
     "section" : {
         "idSection" : "1",
         "contentSection" : {
-            "titleSection" : "Réalisations",
-            "textSection" : "Mes réalisations au fil de mes expériences:"
+            "titleSection" : "Réalisations Professionnelles",
+            "textSection" : "réalisations dans le cadre de mes expériences professionnelles:"
         }
     }
   },
@@ -76,57 +76,7 @@
         },
         "length" : 3
       },
-      "3":{
-        "categoryName" : "Projets Scolaires",
-        "1":{
-          "projectName" : "DungeonRPG",
-          "projectLink" : "/realisations/dungeonrpg",
-          "projectDescription" : "La rencontre d'un RPG et d'un Dungeon Scroller, développé en Python",
-          "projectPicture" : "public/imgs/dungeonrpg.png"
-        },
-        "2":{
-          "projectName" : "Bjs-foot",
-          "projectLink" : "/realisations/bjsfoot",
-          "projectDescription" : "Tirer dans un ballon... en trois dimension, dans un navigateur.",
-          "projectPicture" : "public/imgs/foot.jpg"
-        },
-        "3":{
-          "projectName" : "Petbook",
-          "projectLink" : "/realisations/petbook",
-          "projectDescription" : "Mon chat aussi a le droit d'avoir son réseau social",
-          "projectPicture" : "public/imgs/petbook.png"
-        },
-        "4":{
-          "projectName" : "FARGEX",
-          "projectLink" : "/realisations/fargex",
-          "projectDescription" : "Un pseudo-langage, développé à l'aide de YACC et Lex",
-          "projectPicture" : "public/imgs/FARGEX.png"
-        },
-        "5":{
-          "projectName" : "JACK",
-          "projectLink" : "/realisations/jack",
-          "projectDescription" : "Un système de cartographie 3D, sujet du projet annuel présenté pour la validation de mon Bachelor",
-          "projectPicture" : "public/imgs/JACK.png"
-        },
-        "length" : 5
-      },
-      "4":{
-        "categoryName" : "Projets Personnels",
-        "1":{
-          "projectName" : "Node Source Improved ",
-          "projectLink" : "/realisations/nodesource",
-          "projectDescription" : "Déployer un serveur Node.js sous Linux n'a jamais été aussi simple",
-          "projectPicture" : "public/imgs/node.png"
-        },
-        "2":{
-          "projectName" : "Portfolio-CMS",
-          "projectLink" : "/realisations/cms",
-          "projectDescription" : "Un outil permettant de mettre en place un portfolio professionnel rapidement",
-          "projectPicture" : "public/imgs/portfolio.png"
-        },
-        "length" : 2
-      },
-    "length": 4
+    "length": 2
     }
   }
 

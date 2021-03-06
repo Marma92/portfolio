@@ -2,7 +2,7 @@
 <html>
 <link rel="stylesheet" href="/public/css/portfolio.css">
 <div id="navbar">
-  <nav class="navbar navbar-default navbar-static-top" role="navigation">
+  <nav class="navbar navbar-invert navbar-static-top" role="navigation">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -23,10 +23,16 @@
                     <li class="dropdown">
                       <a href="/etudes"> <br/>Etudes <b></b></a>
                     </li>
-                    <li class="dropdown"><a href="/projets"><br/>Réalisations</b></a>
+                    <li class="dropdown" >
+                      <a class="dropdown-toggle" data-toggle="dropdown"><br/>Réalisations<b class="caret"></b></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/projetspro">Professionelles</a></li>
+                            <li><a href="/projetsperso">Académiques</a></li>
+                            </li>
+                        </ul>
                     </li>
                     <li class="dropdown">
-                      <a href="competences" class="dropdown-toggle" data-toggle="dropdown"><br/> Compétences <b class="caret"></b></a>
+                      <a class="dropdown-toggle" data-toggle="dropdown" :disabled><br/> Compétences <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="/technique">Techniques</a></li>
                             <li><a href="/transverse">Transverses</a></li>
@@ -84,6 +90,7 @@
  text-decoration: none;
 }
 
+
 #homediv{
   padding-top: 0.4em;
   padding-bottom: 0.3em;
@@ -114,6 +121,7 @@
     background-color: #ccc;
   }
 
+
   .navbar-nav .open .dropdown-menu {
     border-bottom: 1px solid white;
     border-radius: 0;
@@ -139,6 +147,10 @@
  }
  #navbar {
    text-align: center;
+ }
+ #navbar .p {
+   padding-left: 10px;
+   padding-right: 10px;
  }
 }
 

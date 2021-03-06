@@ -3,10 +3,10 @@ module.exports = function(app){
 	require("./experience")(app);
 	require("./etudes")(app);
 	require("./contact")(app);
-	require("./competences")(app);
 	require("./technique")(app);
 	require("./transverse")(app);
-	require("./projets")(app);
+	require("./projetspro")(app);
+	require("./projetsperso")(app);
 	require("./template")(app);
 	require("./dungeonrpg")(app);
 	require("./adexbox")(app);

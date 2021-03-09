@@ -9,7 +9,7 @@ var fs = require('fs');
         }
         var obj = JSON.parse(data);
 				console.log(obj.pageTitle);
-        res.render('realisations.ejs', {obj : obj}); // load the competences.ejs file
+        res.render('realisation.ejs', {obj : obj}); // load the competences.ejs file
       });
 	});
 }

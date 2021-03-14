@@ -11,15 +11,15 @@
         }
     },
     "project":{
-      "header" : "Le projet",
+      "header" : "Inception",
       "text"   : "Portfolio CMS est un outil permettant la mise en place et l'édition d'un portfolio professionnel.<br/>"
     },
     "context": {
-      "header" : "Contexte",
+      "header" : "Portfolio",
       "text"   : "Dans le cursus de l'In'tech, école où j'étudie l'Ingénierie Logicielle, la présentation d'un portfolio professionnel est un passage obligatoire au décrochage d'un diplôme.<br/>N'ayant pas trouvé d'outil me convenant pour sa mise en place, j'ai choisi d'en développer un.<br/> Je projette également de continuer à le faire évoluer et le mettre à disposition des futures promotion d'étudiants de l'In'tech."
     },
     "development" : {
-      "header" : "Développement",
+      "header" : "Mise en place",
       "text"   : "Le serveur est développé en Node.js, et charge la plupart des données depuis des fichiers JSON générés depuis un éditeur par l'auteur du portfolio.<br/> Une solution de blogging devrait également voir le jour plus tard.<br/>L'aspect visuel est géré par des vues \"templatées\" grâce à ejs, et utilisant des éléments Bootstrap.<br/>"
     },
     "delivery" : {

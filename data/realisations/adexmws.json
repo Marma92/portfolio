@@ -11,19 +11,19 @@
         }
     },
     "project":{
-      "header" : "Le projet",
-      "text"   : "Développée dans le cadre du développement des activités commerciales d'Adexgroup, durant ma seconde année d'alternance en son sein, Adex-MWS est une solution de gestion d'inventaire et de rafraichissement de stocks automatisée."
+      "header" : "Gestion de stocks",
+      "text"   : "Développée dans le cadre du développement des activités commerciales d'Adexgroup (notamment dans le domaine du matériel et du mobilier bureautique), durant ma seconde année d'alternance en son sein, Adex-MWS est une solution de gestion d'inventaire et de rafraichissement de stocks automatisée."
     },
     "context": {
-      "header" : "Contexte",
+      "header" : "Le Besoin",
       "text"   : "La direction commerciale de Adexgroup ayant décidé d'ouvrir une boutique Amazon de sorte à élargir l'éventail de clientèle de l'entreprise, j'ai été chargé de développer la structure permettant d'automatiser un maximum les processus derrière le fonctionnement de celle-ci.<br/>Adexgoup ne gérant pas directement de stocks, il est capital de s'encquérir assez souvent de la disponibilité des produits proposés chez leurs fournisseurs. Il faut également faire le tri des produits que l'on vend ou non, parmi ceux proposés par le fournisseur.<br/>Enfin, il faut évidemment intégrer ces informations à la boutique hébergée chez Amazon."
     },
     "development" : {
       "header" : "Développement",
-      "text"   : "L'utilisation de l'application impliquant un personnel non technique, j'ai procédé à la mise en place d'une interface web, permettant de charger des fichiers de stock à un format normé et décidé par avance de concert avec la direction commerciale.<br/>Le fichier chargé nourrit alors une base de données SQL définissant les produits qui seront vendus sur la boutique. Une application PHP va ensuite deux fois par jour rechercher les mises à jour du stock fournisseur, et mettre à jour les disponibilités des produits en base.<br/>Pour finir, un fichier au format accepté par l'API d'Amazon MWS est généré et envoyé en appelant cette dernière, mettant à jour les produits disponibles sur la boutique.<br/>Les technologies choisies dans le cadre de ce projet l'ont été dans le but d'une simplicité de lecture et d'un développement rapide au vu de l'urgence de mettre en ligne l'application. La stack déjà en place utilisant également ces technologies, cela évitait de par ailleurs de multiplier les installations et dispositifs sur les serveurs à disposition."
+      "text"   : "L'utilisation de l'application impliquant un personnel non technique, j'ai procédé à la mise en place d'une interface web, permettant de charger des fichiers de stock à un format normé et décidé par avance de concert avec la direction commerciale.<br/>Le fichier chargé nourrit alors une base de données SQL définissant les produits qui seront vendus sur la boutique. Une application PHP va ensuite deux fois par jour rechercher les mises à jour du stock fournisseur, et mettre à jour les disponibilités des produits en base.<br/>Pour finir, un fichier au format accepté par l'API d'Amazon MWS est généré et envoyé en appelant cette dernière, mettant à jour les produits disponibles sur la boutique.<br/>Les technologies choisies dans le cadre de ce projet l'ont été dans le but d'une simplicité de lecture et d'un développement rapide au vu de l'urgence de mettre en ligne l'application. La stack déjà en place utilisant également ces technologies, cela évitait de par ailleurs de multiplier les installations et dispositifs sur les serveurs à disposition. <br/>La phase de développement a impliqué un travail de concert avec la directrice commerciale d'Adexgroup, avec qui je communiquais réguliérement de l'avancée mais aussi des évolutions envisageables du projet. Elle m'a ainsi permis d'acquérir les connaissances métiers inhérentes aux différents partis impliqués dans les activités commerciales de l'entreprise."
     },
     "delivery" : {
-      "header" : "Livraison",
+      "header" : "Mise en Service",
       "text"   : "J'ai assuré un suivi avec la direction commerciale en tenant en parallèle au courant mon supérieur hiérarchique, directeur technique. J'ai ensuite, de concert avec ce dernier, effectué la mise en production de la solution développée sur les serveurs de l'entreprise.<br/>"
     },
     "moreInfos" : {

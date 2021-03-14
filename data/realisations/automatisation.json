@@ -11,20 +11,20 @@
         }
     },
     "project":{
-      "header" : "Le projet",
+      "header" : "Automatisons !",
       "text"   : "Souvent sollicité afin d'aider à l'automatisation de certaines tâches à effectuer chez Securiview, en interne ou pour des clients, l'efficacité et le côté pratique du scripting m'a permis d'offrir des solutions à des problématiques de maintenances.<br/>"
     },
     "context": {
-      "header" : "Contexte",
+      "header" : "Need for Automation",
       "text"   : "Lors de mes missions chez Securiview, il s'est avéré qu'il était souvent nécessaire de mettre en place des automatisations, en particulier sur des machines et serveurs appartenant à des clients.<br/>"
     },
     "development" : {
       "header" : "Développement",
-      "text"   : "Mon intérêt pour le scripting m'a permis de mettre en place différentes procédures, de la simple routine de nettoyage de fichiers de surveillance au script de traitement de données complexe. <br/>Les technologies alors utilisées ont été BASH, PowerShell, PERL et Python 3.<br/>"
+      "text"   : "Mon intérêt pour le scripting et les systèmes d'information de manière générale, m'a permis de mettre en place différentes procédures, de la simple routine de nettoyage de fichiers de surveillance au script de traitement de données complexe. <br/>Les technologies alors utilisées ont été BASH, PowerShell, PERL et Python 3.<br/>"
     },
     "delivery" : {
-      "header" : "Livraison",
-      "text"   : "Généralement faite à la volée, de la plus sauvage des manières. Parce que YOLO.<br/>"
+      "header" : "Mise en place",
+      "text"   : "Toujours versionné, toujours documenté, parce que l'on n'est pas des sauvages, quand même !<br/>"
     },
     "moreInfos" : {
       "header" : "Annexe",

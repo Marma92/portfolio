@@ -11,16 +11,16 @@
         }
     },
     "project":{
-      "header" : "Le projet",
+      "header" : "\"Logs Parser\"",
       "text"   : "Développé dans le cadre d’un stage de fin de Bachelor, effectué à la BNP Paribas Arbitrage, le Force Logs Reader, ou FLR, est un lecteur de logs métier"
     },
     "context": {
       "header" : "Contexte",
-      "text"   : "Le FLR est né du besoin de pouvoir lire les logs d'un très gros logiciel métier, générant des fichiers de logs de parfois plusieurs GigaOctets en fin de cycle de fonctionnement (12h).<br/>Ces fichiers contenant alors un historique des fonctions (et sous-fonctions) C++ sollicitées lors du fonctionnement de la solution devait servir à informer. Mais avec des centaines de milliers de lignes, on avait plus tendance à être noyés sous l'information."
+      "text"   : "Le FLR est né du besoin de pouvoir lire les logs d'un très gros logiciel métier, virtualisant les marchés, et permettant les passages d'ordres aux équipes de trading internes, générant des fichiers de logs de parfois plusieurs GigaOctets en fin de cycle de fonctionnement (12h).<br/>Ces fichiers contenant alors un historique des fonctions (et sous-fonctions) C++ sollicitées lors du fonctionnement de la solution devait servir à informer. Mais avec des centaines de milliers de lignes, un lecteur humain a plus tendance à être noyé sous l'information."
     },
     "development" : {
       "header" : "Développement",
-      "text"   : "Les contraintes posée dès le début furent l'usage de <a href=\"/technique#java\">Java 8 couplé à Java FX</a>.<br/>Durant le développement, j'ai été encadré sans que cela empiéte sur ma liberté de décision, de sorte à m'aider à gagner en autonomie. Le développement du FLR a ainsi impliqué l'usage d'un parser, du modèle objet ,et la mise en place d'une interface graphique.<br/>A terme, les logs affichés dans l'interface graphique pouvaient être désempilés et réempilés, de sorte à gagner en lisibilité tout en ne se concentrant sur les parties intéressant le lecteur."
+      "text"   : "Les contraintes posée dès le début furent l'usage de <a href=\"/technique#java\">Java 8 couplé à Java FX</a>.<br/>Durant le développement, j'ai été encadré sans que cela empiéte sur ma liberté de décision, de sorte à m'aider à gagner en autonomie. Le développement du FLR a ainsi impliqué l'usage d'un parser, du modèle objet ,et la mise en place d'une interface graphique.<br/>A terme, les logs affichés dans l'interface graphique pouvaient être désempilés et réempilés, de sorte à gagner en lisibilité tout en ne se concentrant sur les parties intéressant le lecteur.<br/>Bien que débutant et encadré, une grande liberté d'action m'a été accordée, et à part les simples contraintes de technologies, aucun choix ne m'a été imposé. J'ai été encadré sans être porté, et ainsi intégré une équipe de développement pour la première fois, ainsi que découvert AGILE à travers la méthode LEAN utilisée alors. Bien que sur un projet solitaire, j'ai donc assisté et participé aux réunions et beaucoup appris des différents membres de l'équipe FORCE."
     },
     "delivery" : {
       "header" : "Livraison",

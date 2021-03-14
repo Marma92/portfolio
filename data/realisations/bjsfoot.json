@@ -15,8 +15,8 @@
       "text"   : "Développé dans le cadre d’une semaine de cours sur le thème de Babylon.js, Bjs-Foot est une démonstration technique de ce qui peut être fait dans un navigateur web dans le domaine de la 3D."
     },
     "context": {
-      "header" : "Contexte",
-      "text"   : "Projet à rendre à terme d'une semaine thématique sur le surjet de la 3D et de Babylon.js, le but était de manipuler des éléments triviaux de la 3D, tels que des objets géometriques en trois dimension, un moteur physique, des textures ou encore la gestion d'impacts."
+      "header" : "Apprentissage",
+      "text"   : "Projet à rendre à terme d'une semaine thématique à l'In'tech, sur le sujet de la 3D et de Babylon.js, le but était de manipuler des éléments triviaux de la 3D, tels que des objets géometriques en trois dimension, un moteur physique, des textures ou encore la gestion d'impacts."
     },
     "development" : {
       "header" : "Développement",

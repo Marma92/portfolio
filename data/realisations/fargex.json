@@ -11,11 +11,11 @@
         }
     },
     "project":{
-      "header" : "Le projet",
+      "header" : "Le langage",
       "text"   : "Développé dans le cadre d’un projet scolaire, en troisième année de Bachelor en Architecture Logicielle, le FARGEX est l'application des cours reçus dans le domaine de la théorie des langages."
     },
     "context": {
-      "header" : "Contexte",
+      "header" : "Contexte académique",
       "text"   : "Le sujet du projet demandait d'implémenter les fonctionnalités basique d'un langage de programmation classique au rendu."
     },
     "development" : {
@@ -23,7 +23,7 @@
       "text"   : "Le FARGEX est un pseudo-langage de programmation utilisant un interpréteur développé à l'aide de YACC et Lex, en langage C."
     },
     "delivery" : {
-      "header" : "Rendu",
+      "header" : "Rendu et présentation",
       "text"   : "Ce programme a été présenté lors d'une soutenance d'une vingtaine de minutes, au cours de laquelle j'ai dû démontrer que les fonctionnalités à implémenter étaient bien fonctionnelles."
     },
     "moreInfos" : {

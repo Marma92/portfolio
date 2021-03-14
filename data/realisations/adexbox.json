@@ -11,12 +11,12 @@
         }
     },
     "project":{
-      "header" : "Pourquoi",
+      "header" : "Pourquoi?",
       "text"   : "Adexgroup est historiquement concessionnaire Xerox; ayant orienté son business model vers le leasing ces dernières années, une de ses principales occupations est donc la facturation (à la page) des impressions. <br/>L'Adexbox a ainsi été développée dans le but de permettre la remontée de compteurs d'impressions des imprimantes leasées par Adexgroup.<br/>Composée d'un boîtier installé sur le réseau du client et d'un serveur récoltant les compteurs de la globalité du parc, elle permet la gestion et la consultation de ces derniers dans un logiciel de gestion, à des fins de facturation."
     },
     "context": {
-      "header" : "Naissance",
-      "text"   : "Lors de mon embauche, il était clair qu'une de mes principales missions serait de stabiliser et de faire évoluer la solution Adexbox.<br/> Les serveurs avaient besoin d'une mise à jour et d'une profonde optimisation, tandis que les boîtiers souffraient de problèmes de fiabilité logicielle et matérielle.<br/>Une autre problématique était également le coût élevé d'un boîtier, parfois peu rentable à installer chez certains clients au parc d'impression réduit."
+      "header" : "Genèse du projet",
+      "text"   : "Lors de mon embauche, il était clair qu'une de mes principales missions serait de stabiliser et de faire évoluer la solution Adexbox déjà existante mais défaillante.<br/> Les serveurs avaient besoin d'une mise à jour et d'une profonde optimisation, tandis que les boîtiers souffraient de problèmes de fiabilité logicielle et matérielle.<br/>Une autre problématique était également le coût élevé d'un boîtier, parfois peu rentable à installer chez certains clients au parc d'impression réduit."
     },
     "development" : {
       "header" : "Comment",

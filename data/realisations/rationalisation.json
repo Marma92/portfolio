@@ -11,15 +11,15 @@
         }
     },
     "project":{
-      "header" : "Le projet",
-      "text"   : "Durant mon alternance de 9 mois chez Securiview, de nombreux besoins en scripting avancé et en développement se sont révélés.<br/>J'ai ainsi, durant le courant de ma période de contrat, dû développer de nombreux composants logiciels visant à centraliser les arrivées de données."
+      "header" : "Centraliser pour mieux régner",
+      "text"   : "Durant mon alternance de 9 mois chez Securiview, de nombreux besoins en scripting avancé et en développement se sont révélés nécessaires.<br/>J'ai ainsi, durant le courant de ma période de contrat, dû développer de nombreux composants logiciels visant à centraliser les arrivées de données."
     },
     "context": {
-      "header" : "Contexte",
+      "header" : "Data is the key",
       "text"   : "Securiview offre une prestation en sécurité informatique. Pour ce faire, du matériel et des logiciels spécialisés sont installés sur le réseau client de sorte à offir un diagnostic de sa santé en temps réel: le monitoring. Pour pouvoir garder un oeil constamment sur les différents systèmes gérés, différents systèmes d'alerte sont mis en place, de sorte à ce que les techniciens soient avertis en temps réel en cas d'incident.<br/>Cependant, les alertes arrivant de types différents d'outils de surveillance, il a fallu procéder à une normalisation de la donnée pour ensuite centraliser son arrivée."
     },
     "development" : {
-      "header" : "Développement",
+      "header" : "Réalisation",
       "text"   : "Le logiciel de gestion de tickets principalement utilisé alors étant Service Desk, de ManageEngine, et le logiciel de monitoring principal, OPManager, du même éditeur, il m'a été confié à plusieurs reprise de centraliser les alertes de monitoring vers OPManager et les remontées de tickets vers Service Desk.<br/>Pour ce faire, il m'a fallu utiliser de nombreux moyens logiciels, entre autres, un applet Java 6, un script PEARL déclenché par un hook Postman et un script Powershell. Le tout faisant des appels à l'API du logiciel de ManageEngine ciblé de sorte à y inclure automatiquement la donnée."
     },
     "delivery" : {

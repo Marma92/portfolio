@@ -16,15 +16,15 @@
     },
     "context": {
       "header" : "Contexte",
-      "text"   : "Les contextes étant variés, je ne peux généraliser, mais ils étaient la plupart du temps très axès système et réseau, nécessitant des connaissances en la matière, secondées de scripting."
+      "text"   : "Les contextes étant variés, il est difficile ici de tous les mentionner, mais ils étaient la plupart du temps très axés système et réseau, nécessitant des connaissances en la matière, secondées de scripting."
     },
     "development" : {
       "header" : "Développement",
-      "text"   : "La plupart du temps en BASH ou en PowerShell selon les serveurs touchés et leur système d'exploitation.<br/>Je me souviens d'un cas tout particulier d'un serveur contenant des données de surveillance d'un client, qui retournait des messages d'erreur cryptiques depuis plusieurs mois, et qui souffrait de dysfonctionnements réguliers. Après investigations, il s'est avéré que son fonctionnement était altéré par un manque de mémoire. En fouillant le stockage du serveur, j'ai compris que les données y étaient accumulées sans être jamais purgées. J'ai alors mis en place une execution cron sur un script purgeant les fichiers antérieurs aux trois derniers mois à la fin de chaque mois. En quelques minutes était reglée une panne récurrente vieille de plusieurs mois."
+      "text"   : "La plupart du temps en BASH ou en PowerShell selon les serveurs touchés et leur système d'exploitation.<br/>Je me souviens d'un cas tout particulier d'un serveur contenant des données de surveillance d'un client, qui retournait des messages d'erreur cryptiques depuis plusieurs mois, et qui souffrait de dysfonctionnements réguliers. Après investigations, il s'est avéré que son fonctionnement était altéré par un manque de mémoire. En fouillant le stockage du serveur, j'ai compris que les données y étaient accumulées sans être jamais purgées. J'ai alors mis en place une execution cron sur un script purgeant les fichiers antérieurs aux trois derniers mois à la fin de chaque mois. En quelques minutes était reglée une panne récurrente vieille de plusieurs mois.<br/>J'ai ainsi automatisé plusieurs tâches plus ou moins complexes sur des serveurs de l'entreprise ou de ses clients durant l'année passée chez Securiview."
     },
     "delivery" : {
       "header" : "Livraison",
-      "text"   : "La plupart du temps laissée aux soins de mon directeur technique."
+      "text"   : "La plupart du temps laissée aux soins de mon directeur technique, les politiques de sécurité de l'entreprise me laissant bien peu de liberté en production. J'ai cependant été amené à gérer mes développements et leurs versions via Redmine et son intégration de Git."
     },
     "moreInfos" : {
       "header" : "Annexe",

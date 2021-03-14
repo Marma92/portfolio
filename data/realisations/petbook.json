@@ -11,20 +11,20 @@
         }
     },
     "project":{
-      "header" : "Le projet",
+      "header" : "Ouafbook",
       "text"   : "Développé dans le cadre d’un projet scolaire, en troisième année de Bachelor en Architecture Logicielle, à l'ESGI, Petbook est un réseau social à destination des animaux domestiques."
     },
     "context": {
-      "header" : "Contexte",
-      "text"   : "Le sujet était défini avec pour contraintes d'utiliser NodeJS et d'être capable de justifier ses choix techniques."
+      "header" : "Contexte académique",
+      "text"   : "Le sujet était défini avec pour seules contraintes d'utiliser NodeJS et d'être capable de justifier ses choix techniques quant aux usages de packages integrés par la suite."
     },
     "development" : {
-      "header" : "Développement",
-      "text"   : "Notre groupe a donc choisi de mettre en place une stack basée sur NodeJS, utilisant express et passport, tout en implémentant un système de connexion s'appuyant sur BCrypt, utilisant lui-même l'algorithme de chiffrement Blowfish, offrant une protection particuliérement bonne face aux attaques de force brute.<br/>"
+      "header" : "Mise en place",
+      "text"   : "Notre groupe a donc choisi de mettre en place une stack basée sur NodeJS, utilisant express et passport, tout en implémentant un système de connexion s'appuyant sur BCrypt, utilisant lui-même l'algorithme de chiffrement Blowfish, offrant une protection particuliérement bonne face aux attaques de force brute.<br/>Ayant alors plus d'expérience que les autres membres du groupe en Node.js, j'ai découpé la solution et réparti les tâches ainsi que fait la majorité des choix techniques précédemment cités. Défendu en soutenance, ils nous ont valu un très bon accueil du jury alors présent."
     },
     "delivery" : {
       "header" : "Rendu",
-      "text"   : "Ce programme a été présenté lors d'une soutenance d'une vingtaine de minutes, au cours de laquelle nous avons dû <a href=\"/transverse#parler\">parler</a> de l'intérêt-même du projet et justifier nos choix technologiques.<br/>"
+      "text"   : "Ce programme a été présenté lors d'une soutenance d'une vingtaine de minutes, au cours de laquelle nous avons dû <a href=\"/transverse#parler\">parler</a> de l'intérêt-même du projet et justifier nos choix techniques.<br/>"
     },
     "moreInfos" : {
       "header" : "Annexe",

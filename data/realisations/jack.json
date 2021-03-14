@@ -20,7 +20,7 @@
     },
     "development" : {
       "header" : "Développement",
-      "text"   : "Le développement a été réparti sur le groupe de trois étudiants que nous étions. Un dépôt a été mis en place par partie de la stack."
+      "text"   : "Le développement a été réparti sur le groupe de trois étudiants que nous étions. Un dépôt a été mis en place par partie de la stack. Je me suis personnellement occupé de la partie serveur d'embarquement des plugins à integrer à la solution ainsi que d'améliorations et de problématiques d'optimisations des performances du programme."
     },
     "delivery" : {
       "header" : "Rendu",

@@ -19,7 +19,6 @@ module.exports = function(app){
 	require("./forcelogs")(app);
 	require("./inmykitchen")(app);
 	require("./jack")(app);
-	require("./myowncloud")(app);
 	require("./nodesource")(app);
 	require("./optimisation")(app);
 	require("./petbook")(app);

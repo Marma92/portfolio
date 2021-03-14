@@ -11,11 +11,11 @@
         }
     },
     "project":{
-      "header" : "Le projet",
+      "header" : "Node.js kickstart",
       "text"   : "Node Source Improved est un script permettant de déployer facilement et rapidement Node.js sur n'importe quelle distribution Linux basée sur Debian.<br/>"
     },
     "context": {
-      "header" : "Contexte",
+      "header" : "Pourquoi?",
       "text"   : "Utilisant beaucoup le Raspberry Pi dans le cadre de mes différents projets, il m'est arrivé de vouloir déployer Node.js sur un Pi de première génération et de me heurter à plusieurs difficultés. <br/> <ul> <li> Les packages officiels de Debian (aptitude), ne permettent de récupérer qu'une très ancienne version de Node.js (0.10).</li> <li>Il est possible de compiler soi-même les sources, mais au vu de la puissance très limité du Pi 1, cela représente plusieurs heures de compilation. </li> <li>Il existe une solution existante pour l'ajout de sources de packages pré-compilés à aptitude, nommée Node Source, mais elle ne prend pas en charger l'architecture de processeurs utilisée par le Pi 1.(ARM6)</li><li>Node.js seul, ne fournit pas un environnement de production complet, il est nécessaire d'y ajouter différents outils pour pouvoir l'utiliser au quotidien afin d'héberger une application.</li></ul>"
     },
     "development" : {

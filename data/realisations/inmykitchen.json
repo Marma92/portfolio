@@ -11,20 +11,20 @@
         }
     },
     "project":{
-      "header" : "Le projet",
+      "header" : "Pimp my fridge",
       "text"   : "Développée en binôme pour répondre à la demande du directeur de RAISE UP! films, In My Kitchen est une application mobile, à thématique culinaire, collaborative, et accessible.<br/>"
     },
     "context": {
-      "header" : "Contexte",
+      "header" : "Pitch",
       "text"   : "L'application InMyKitchen permet d'entrer les différentes denrées dont vous disposez dans votre cuisine, afin de vous suggérer des recettes basées sur ces aliments. Il est possible de partager des recettes de sorte à agrémenter la base de données de l'application, développant ainsi un aspect communautaire.<br/>"
     },
     "development" : {
-      "header" : "Développement",
-      "text"   : "Cette application mobile a été développée à destination d'iOS 7, en Objective-C. Elle a également servi de sujet de soutenance d'épreuve finale de mon diplôme de BTS SIO.<br/>"
+      "header" : "Réalisation",
+      "text"   : "Cette application mobile a été développée à destination d'iOS 7, en Objective-C. Elle a également servi de sujet de soutenance d'épreuve finale de mon diplôme de BTS SIO.<br/>Alors développée à deux, avec un développeur plus expérimenté que moi, j'ai compensé mon retard technique en gérant le côté plus commercial de l'application en assurant les rendez-vous avec le client ainsi que les présentations d'avancement produit."
     },
     "delivery" : {
       "header" : "Rendu",
-      "text"   : "Ce programme a ainsi été présenté lors d'une soutenance d'une heure, au cours de laquelle j'ai pu présenter l'application, et ses éventuelles améliorations.<br/>L'application a également été livrée après approbation du service de validation de l' Apple App Store<br/>"
+      "text"   : "Ce programme a ainsi été présenté lors d'une soutenance d'une heure de fin de parcours de BTS SIO (épreuve E4), au cours de laquelle j'ai pu présenter l'application, et ses éventuelles améliorations aux observateurs auprès desquels elle a été très bien reçue.<br/>L'application a également été livrée après approbation du service de validation de l' Apple App Store<br/>"
     },
     "moreInfos" : {
       "header" : "Annexe",
